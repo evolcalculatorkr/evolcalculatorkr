@@ -62,11 +62,11 @@
                 </div>
                 <div class="collapse navbar-collapse" id="navbar-menu">
                     <ul class="nav navbar-nav navbar-right">
-                        <li :class="{active: nav == 'level'}"><a href="javascript:;" @click="nav = 'level'">스테이지 계산(关卡计算)</a></li>
+                        <li :class="{active: nav == 'level'}"><a href="javascript:;" @click="nav = 'level'">시나리오(关卡计算)</a></li>
                         <li :class="{active: nav == 'ticket'}"><a href="javascript:;" @click="nav = 'ticket'">시청률 쟁탈전(票房争夺战)</a></li>
                         <li :class="{active: nav == 'challenge'}"><a href="javascript:;" @click="nav = 'challenge'">24시간전쟁(24小时挑战)</a></li>
-                        <li :class="{active: nav == 'double'}"><a href="javascript:;" @click="show_double()">卡组分析</a></li>
-                        <li :class="{active: nav == 'card'}"><a href="javascript:;" @click="nav = 'card'">我的羁绊</a></li>
+                        <li :class="{active: nav == 'double'}"><a href="javascript:;" @click="show_double()">카드정보(卡组分析)</a></li>
+                        <li :class="{active: nav == 'card'}"><a href="javascript:;" @click="nav = 'card'">내카드(我的羁绊)</a></li>
                         <li><a href="javascript:;" @click="show_login('user_login')" v-show="empty(user.name)">로그인(登录账号)</a></li>
                         <li><a href="javascript:;" @click="show_login('user_login')" v-show="!empty(user.name)">계정전환(切换账号)</a></li>
                     </ul>
