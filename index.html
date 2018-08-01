@@ -63,12 +63,12 @@
                 <div class="collapse navbar-collapse" id="navbar-menu">
                     <ul class="nav navbar-nav navbar-right">
                         <li :class="{active: nav == 'level'}"><a href="javascript:;" @click="nav = 'level'">关卡计算</a></li>
-                        <li :class="{active: nav == 'ticket'}"><a href="javascript:;" @click="nav = 'ticket'">票房争夺战</a></li>
+                        <li :class="{active: nav == 'ticket'}"><a href="javascript:;" @click="nav = 'ticket'">시청률 쟁탈전(票房争夺战)</a></li>
                         <li :class="{active: nav == 'challenge'}"><a href="javascript:;" @click="nav = 'challenge'">24小时挑战</a></li>
                         <li :class="{active: nav == 'double'}"><a href="javascript:;" @click="show_double()">卡组分析</a></li>
                         <li :class="{active: nav == 'card'}"><a href="javascript:;" @click="nav = 'card'">我的羁绊</a></li>
-                        <li><a href="javascript:;" @click="show_login('user_login')" v-show="empty(user.name)">登录账号</a></li>
-                        <li><a href="javascript:;" @click="show_login('user_login')" v-show="!empty(user.name)">切换账号</a></li>
+                        <li><a href="javascript:;" @click="show_login('user_login')" v-show="empty(user.name)">로그인(登录账号)</a></li>
+                        <li><a href="javascript:;" @click="show_login('user_login')" v-show="!empty(user.name)">계정전환(切换账号)</a></li>
                     </ul>
                 </div>
             </div>
@@ -79,7 +79,7 @@
                 <div class="mycard">
                     <h3>러브앤프로듀스 계산기 v2.0</h3>
                     <p>
-                        <a href="https://evolcalculatorkr.github.io/evolcalculatorkr/index-v1.html">v1版本</a>
+                        <a href="https://evolcalculatorkr.github.io/evolcalculatorkr/index-v1.html">계산기 v1(v1版本)</a>
                         <br>
                         <h4>使用说明</h4>
                         首次使用请先<a href="javascript:;" @click="nav = 'card'">添加羁绊</a>，支持<a href="javascript:;" @click="show_batch('import_data')">导入/导出</a>和<a href="javascript:;" @click="show_login('create_user')">在线保存</a>。
