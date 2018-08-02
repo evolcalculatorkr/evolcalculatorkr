@@ -88,7 +88,7 @@
                         <br>
 
                         <h4>데이터 출처</h4> 가중 데이터 출처 <a href="https://weibo.com/unnamedgroup" target="_blank">@恋与制作人未命名攻略组</a>
-                        <br> 계산기 제작 @达尔娜 @清澄 @鱼骨头 <br>계산기 한국어화 제작 @라임향기 @Leah <a href="https://cafe.naver.com/evol4" target="_blank">러브앤프로듀서 팬카페</a>
+                        <br> 계산기 제작 @达尔娜 @清澄 @鱼骨头 <br>계산기 한국어지원 제작 @라임향기 @Leah <a href="https://cafe.naver.com/evol4" target="_blank">러브앤프로듀서 팬카페</a>
                     </p>
                 </div>
                 <!--说明-->
@@ -140,18 +140,18 @@
                 <!--羁绊-->
                 <div class="mycard" v-show="nav == 'card'">
                     <div>
-                        <h4>添加羁绊</h4>
+                        <h4>나의 운명</h4>
                         <div class="pd15">
-                            <label class="label-above">输入关键字，添加或修改羁绊</label>
+                            <label class="label-above">키워드로 입력하거나, 추가 또는 편집이 가능합니다.(输入关键字，添加或修改羁绊)</label>
                             <input id="card_typeahead" type="text" class="typeahead form-control" data-provide="typeahead" autocomplete="off">
-                            <p class="help-block">添加时先输入等级，自动推算属性值</p>
+                            <p class="help-block">운명 추가시 먼저 레벨을 입력하면 속성값을 자동으로 계산합니다.(添加时先输入等级，自动推算属性值)</p>
                         </div>
                         <div class="form-group">
-                            <a href="javascript:;" class="btn btn-default" @click="show_batch('export_data')">导出</a>
-                            <a href="javascript:;" class="btn btn-primary" @click="show_batch('import_data')">导入</a>
+                            <a href="javascript:;" class="btn btn-default" @click="show_batch('export_data')">내보내기</a>
+                            <a href="javascript:;" class="btn btn-primary" @click="show_batch('import_data')">가져오기</a>
                         </div>
                         <div class="alert alert-warning" role="alert" v-show="!empty(batch.fail)">
-                            以下导入失败，请检查名称是否正确：
+                            가져오기가 실패했습니다. 올바르게 이름을 입력했는지 확인하세요.(以下导入失败，请检查名称是否正确)：
                             <br>
                             <template v-for="item in batch.fail">
                                 <small style="margin: 0 5px;">{{item.name}}</small>
@@ -159,8 +159,8 @@
                             <button type="button" class="close" aria-label="Close" @click="batch.fail = []"><span aria-hidden="true">&times;</span></button>
                         </div>
                     </div>
-                    <h4 style="margin-top: 50px;">我的羁绊</h4>
-                    <p v-show="list.length > 1"><a href="javascript:;" @click="remove_all()">清空数据</a></p>
+                    <h4 style="margin-top: 50px;">나의 운명(我的羁绊)</h4>
+                    <p v-show="list.length > 1"><a href="javascript:;" @click="remove_all()">전체삭제(清空数据)</a></p>
                     <div class="form-group clearfix">
                         <div class="col-xs-4 col-md-3 col-lg-2">
                             <label class="label-above">인물</label>
@@ -303,7 +303,7 @@
                         <div class="col-xs-4 col-sm-3 col-md-2">
                             <label class="label-above">시즌</label>
                             <select class="form-control" v-model="chapter">
-                                <option :value="key" v-for="(item, key) in select[category]">시즌{{key}}</option>
+                                <option :value="key" v-for="(item, key) in select[category]">시즌 {{key}}</option>
                             </select>
                         </div>
                         <div class="col-xs-4 col-sm-3 col-md-2">
