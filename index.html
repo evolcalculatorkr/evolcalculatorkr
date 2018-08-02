@@ -525,7 +525,7 @@
                 <!--今日票房-->
                 <div class="mycard" v-show="nav == 'ticket'">
                     <h4>오늘의 시청률</h4>
-                    <p><a href="javascript:;" @click="show_today()">设置</a></p>
+                    <p><a href="javascript:;" @click="show_today()">설정</a></p>
                     <table class="table table-bordered table-hover table-condensed">
                         <thead>
                             <th>주제</th>
@@ -551,7 +551,7 @@
                         </tbody>
                     </table>
                     
-                    <p><a href="javascript:;" class="btn btn-primary" @click="show_ticket()">胜率分析</a></p>
+                    <p><a href="javascript:;" class="btn btn-primary" @click="show_ticket()">승률분석</a></p>
                 </div>
                 <!--今日票房-->
 
@@ -837,7 +837,7 @@
 
                 <!--24小时挑战-->
                 <div class="mycard" v-show="nav == 'challenge'">
-                    <h4>24小时挑战</h4>
+                    <h4>24시간 도전</h4>
 
                     <div class="form-group clearfix" v-if="!empty(ticket)">
                         <div class="col-xs-4 col-md-3 col-lg-2">
@@ -1205,8 +1205,8 @@
 
                 <!-- 卡组分析 -->
                 <div class="mycard" v-show="nav == 'double'">
-                    <h4>卡组分析</h4>
-                    <a href="javascript:;" @click="levels.config = !levels.config">设置</a>
+                    <h4>운명분석</h4>
+                    <a href="javascript:;" @click="levels.config = !levels.config">설정</a>
                     <div v-show="levels.config">
                         <!-- <div class="radio">
                             <span>筛选：</span>
@@ -1218,41 +1218,41 @@
                             </label>
                         </div> -->
                         <div class="input" v-show="false">
-                            权重：
+                            가중치：
                             <input type="number" v-model="levels.factor[0]">
                             <input type="number" v-model="levels.factor[1]">
                             <input type="number" v-model="levels.factor[2]">
                             <input type="number" v-model="levels.factor[3]">
-                            <button @click="double_cards()">更新</button>
+                            <button @click="double_cards()">업데이트</button>
                         </div>
                         <div class="radio">
-                            <span>人物：</span>
+                            <span>인물：</span>
                             <label>
-                                <input type="radio" v-model="levels.category" value="0"> 全部
+                                <input type="radio" v-model="levels.category" value="0"> 전체
                             </label>
                             <label>
-                                <input type="radio" v-model="levels.category" value="1"> 李泽言
+                                <input type="radio" v-model="levels.category" value="1"> 이택언
                             </label>
                             <label>
-                                <input type="radio" v-model="levels.category" value="2"> 许墨
+                                <input type="radio" v-model="levels.category" value="2"> 허묵
                             </label>
                             <label>
-                                <input type="radio" v-model="levels.category" value="3"> 周棋洛
+                                <input type="radio" v-model="levels.category" value="3"> 주기락
                             </label>
                             <label>
-                                <input type="radio" v-model="levels.category" value="4"> 白起
+                                <input type="radio" v-model="levels.category" value="4"> 백기
                             </label>
                         </div>
                         <div class="radio" v-show="double.option == 'all'">
                             <span>R：</span>
                             <label>
-                                <input type="radio" v-model="levels.r" value="hidden"> 隐藏
+                                <input type="radio" v-model="levels.r" value="hidden"> 숨기기
                             </label>
                             <label>
-                                <input type="radio" v-model="levels.r" value="ordinary"> 进化前
+                                <input type="radio" v-model="levels.r" value="ordinary"> 진화전
                             </label>
                             <label>
-                                <input type="radio" v-model="levels.r" value="evolved"> 进化后
+                                <input type="radio" v-model="levels.r" value="evolved"> 진화후
                             </label>
                             <label>
                                 <input type="radio" v-model="levels.r" value="evolved2"> 新满级
@@ -1261,55 +1261,55 @@
                         <div class="radio" v-show="double.option == 'all'">
                             <span>SR：</span>
                             <label>
-                                <input type="radio" v-model="levels.sr" value="hidden"> 隐藏
+                                <input type="radio" v-model="levels.sr" value="hidden"> 숨기기
                             </label>
                             <label>
-                                <input type="radio" v-model="levels.sr" value="ordinary"> 进化前
+                                <input type="radio" v-model="levels.sr" value="ordinary"> 진화전
                             </label>
                             <label>
-                                <input type="radio" v-model="levels.sr" value="evolved"> 进化后
+                                <input type="radio" v-model="levels.sr" value="evolved"> 진화후
                             </label>
                             <label>
-                                <input type="radio" v-model="levels.sr" value="evolved2"> 新满级
+                                <input type="radio" v-model="levels.sr" value="evolved2"> 최종승급
                             </label>
                         </div>
                         <div class="radio" v-show="double.option == 'all'">
                             <span>SSR：</span>
                             <label>
-                                <input type="radio" v-model="levels.ssr" value="hidden"> 隐藏
+                                <input type="radio" v-model="levels.ssr" value="hidden"> 숨기기
                             </label>
                             <label>
-                                <input type="radio" v-model="levels.ssr" value="ordinary"> 进化前
+                                <input type="radio" v-model="levels.ssr" value="ordinary"> 진화전
                             </label>
                             <label>
-                                <input type="radio" v-model="levels.ssr" value="evolved"> 进化后
+                                <input type="radio" v-model="levels.ssr" value="evolved"> 진화후
                             </label>
                             <label>
-                                <input type="radio" v-model="levels.ssr" value="evolved2"> 新满级
+                                <input type="radio" v-model="levels.ssr" value="evolved2"> 최종승급
                             </label>
                         </div>
                         <div class="checkbox" v-show="double.option == 'all'">
-                            <span>显示：</span>
+                            <span>표시：</span>
                             <label>
-                                <input type="checkbox" v-model="levels.cols" value="value"> 属性值
+                                <input type="checkbox" v-model="levels.cols" value="value"> 속성값
                             </label>
                             <label>
-                                <input type="checkbox" v-model="levels.cols" value="rate"> 属性比
+                                <input type="checkbox" v-model="levels.cols" value="rate"> 속성비율
                             </label>
                             <label>
-                                <input type="checkbox" v-model="levels.cols" value="decisiveness"> 决策组
+                                <input type="checkbox" v-model="levels.cols" value="decisiveness"> 결단력
                             </label>
                             <label>
-                                <input type="checkbox" v-model="levels.cols" value="creativity"> 创造组
+                                <input type="checkbox" v-model="levels.cols" value="creativity"> 창의력
                             </label>
                             <label>
-                                <input type="checkbox" v-model="levels.cols" value="kindness"> 亲和组
+                                <input type="checkbox" v-model="levels.cols" value="kindness"> 친화력
                             </label>
                             <label>
-                                <input type="checkbox" v-model="levels.cols" value="activity"> 行动组
+                                <input type="checkbox" v-model="levels.cols" value="activity"> 추진력
                             </label>
                             <label>
-                                <input type="checkbox" v-model="levels.cols" value="gain"> 获取
+                                <input type="checkbox" v-model="levels.cols" value="gain"> 획득경로
                             </label>
                         </div>
                     </div>
