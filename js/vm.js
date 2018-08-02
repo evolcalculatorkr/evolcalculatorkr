@@ -4,7 +4,7 @@ var vm = new Vue({
         version: '2.3.43',
         path: $.LS.get('path') || 'img/',
         show_path: false,
-        base_url: 'https://app.coderprepares.com/evol/calculator/',
+        base_url: 'https://evolcalculatorkr-apps.saturnsoft.net/evol/calculator/',
         prop: ['decisiveness', 'creativity', 'kindness', 'activity'],
         dom_init: false, // 初始化dom元素
         nav: 'level', // 导航
