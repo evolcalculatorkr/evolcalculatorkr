@@ -82,9 +82,9 @@
                         <a href="https://evolcalculatorkr.github.io/index-v1.html">계산기 v1.0</a>
                         <br>
                         <h4>사용설명</h4>
-                        계산기를 처음 사용하실 때는 <a href="javascript:;" @click="nav = 'card'">본인이 소유한 운명을 저장해주세요.</a>，<a href="javascript:;" @click="show_batch('import_data')">한꺼번에 가져오기/내보내기</a>와<a href="javascript:;" @click="show_login('create_user')">온라인 저장</a>을 지원합니다.
+                        계산기를 처음 사용하실 때는 <a href="javascript:;" @click="nav = 'card'">본인이 소유한 운명을 저장해주세요</a>. <a href="javascript:;" @click="show_batch('import_data')">한꺼번에 가져오기/내보내기</a>와 <a href="javascript:;" @click="show_login('create_user')">온라인 저장</a>을 지원합니다.
                         <br>
-                        기능：<a href="javascript:;" @click="nav = 'level'">스테이지 계산</a>、<a href="javascript:;" @click="nav = 'ticket'">시청률 쟁탈전</a>、<a href="javascript:;" @click="show_double()">운명 분석</a>、<a href="javascript:;" @click="nav = 'challenge'">24시간 도전</a>
+                        기능：<a href="javascript:;" @click="nav = 'level'">스테이지 계산</a>, <a href="javascript:;" @click="nav = 'ticket'">시청률 쟁탈전</a>, <a href="javascript:;" @click="show_double()">운명 분석</a>, <a href="javascript:;" @click="nav = 'challenge'">24시간 도전</a>
                         <br>
 
                         <h4>데이터 출처</h4> 가중 데이터 출처 <a href="https://weibo.com/unnamedgroup" target="_blank">@恋与制作人未命名攻略组</a>
@@ -95,7 +95,7 @@
 
                 <!--公司-->
                 <div class="mycard" v-show="nav == 'card'">
-                    <h4>회사속성(公司属性)</h4>
+                    <h4>회사속성</h4>
                     <div class="form-group clearfix">
                         <div class="col-xs-3 col-md-2">
                             <label class="label-above">결단력</label>
@@ -124,14 +124,14 @@
                             <a href="javascript:;" @click="logout()">로그아웃</a>
                         </h4>
                         <p>
-                            当前数据在线保存，请记住账号密码，以便下次登录使用。
+                            현재 데이터는 온라인으로 저장되고 있으며 다음 로그인에 사용하기 위해 계정 비밀번호를 기억해주세요.
                         </p>
                     </div>
                     <div v-else>
-                        <h4>在线保存</h4>
+                        <h4>온라인 저장</h4>
                         <p>
-                            当前数据保存在浏览器，
-                            <a href="javascript:;" @click="show_login('create_user')">创建</a>或<a href="javascript:;" @click="show_login('user_login')">登录</a>公司，在线保存个人数据。
+                            현재 데이터는 웹 브라우저에 저장되어 있으며,
+                            <a href="javascript:;" @click="show_login('create_user')">계정을 생성</a>하거나 <a href="javascript:;" @click="show_login('user_login')">기존 계정으로 로그인</a>했을 때, 온라인에 개인 데이터를 저장합니다.
                         </p>
                     </div>
                 </div>
@@ -291,7 +291,7 @@
                 <div class="mycard" v-show="nav == 'level'">
                     <h4>스테이지 계산</h4>
                     <div class="form-group" v-show="list.length < 3">
-                        <a href="javascript:;" @click="nav = 'card'">添加</a>三张以上羁绊开启
+                        반드시 <a href="javascript:;" @click="nav = 'card'">나의 운명</a>에서 3장 이상의 운명을 선택해주세요.
                     </div>
                     <div class="form-group clearfix" v-if="!empty(select)">
                         <div class="col-xs-4 col-sm-3 col-md-2">
