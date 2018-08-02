@@ -2057,13 +2057,13 @@
                             <div class="modal-main">
                                 <div class="radio">
                                     <label>
-                                        <input type="radio" v-model="batch.source" value="calculator"> 计算器
+                                        <input type="radio" v-model="batch.source" value="calculator"> 계산기($计算器)
                                     </label>
                                     <label>
-                                        <input type="radio" v-model="batch.source" value="excel"> Excel
+                                        <input type="radio" v-model="batch.source" value="excel"> 엑셀(Excel)
                                     </label>
                                     <label v-show="batch.option == 'export_data'">
-                                        <input type="radio" v-model="batch.source" value="debug"> 调试信息
+                                        <input type="radio" v-model="batch.source" value="debug"> 디버그 정보($调试信息)
                                     </label>
                                     <!-- <label v-show="batch.option == 'import_data'">
                                         <input type="radio" v-model="batch.source" value="all"> 所有羁绊
@@ -2077,12 +2077,12 @@
                         </div>
                         <div class="modal-footer" v-show="batch.option == 'import_data'">
                             <button type="button" class="btn btn-default" data-dismiss="modal">취소</button>
-                            <button type="button" id="import_data" class="btn btn-primary" data-loading-text="가져오는중..." @click="import_data()">导入</button>
+                            <button type="button" id="import_data" class="btn btn-primary" data-loading-text="가져오는중..." @click="import_data()">가져오기($导入)</button>
                         </div>
                         <div class="modal-footer" v-show="batch.option == 'export_data'">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
-                            <button type="button" id="export_data" class="btn btn-primary" data-loading-text="내보내는중..." @click="export_data()" v-show="batch.source != 'debug'">导出</button>
-                            <button type="button" id="export_data_download" class="btn btn-primary" data-loading-text="내보내는중..." @click="export_data_download()" v-show="batch.source == 'debug'">上传</button>
+                            <button type="button" class="btn btn-default" data-dismiss="modal">닫기($关闭)</button>
+                            <button type="button" id="export_data" class="btn btn-primary" data-loading-text="내보내는중..." @click="export_data()" v-show="batch.source != 'debug'">내보내기($导出)</button>
+                            <button type="button" id="export_data_download" class="btn btn-primary" data-loading-text="내보내는중..." @click="export_data_download()" v-show="batch.source == 'debug'">업로드($上传)</button>
                         </div>
                     </div>
                 </div>
