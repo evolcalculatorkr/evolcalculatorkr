@@ -67,8 +67,8 @@
                         <li :class="{active: nav == 'challenge'}"><a href="javascript:;" @click="nav = 'challenge'">24시간 도전(미오픈)</a></li>
                         <li :class="{active: nav == 'double'}"><a href="javascript:;" @click="show_double()">운명 분석</a></li>
                         <li :class="{active: nav == 'card'}"><a href="javascript:;" @click="nav = 'card'">나의 운명</a></li>
-                        <li><a href="javascript:;" @click="show_login('user_login')" v-show="empty(user.name)">로그인(登录账号)</a></li>
-                        <li><a href="javascript:;" @click="show_login('user_login')" v-show="!empty(user.name)">계정전환(切换账号)</a></li>
+                        <li><a href="javascript:;" @click="show_login('user_login')" v-show="empty(user.name)">로그인</a></li>
+                        <li><a href="javascript:;" @click="show_login('user_login')" v-show="!empty(user.name)">계정전환</a></li>
                     </ul>
                 </div>
             </div>
