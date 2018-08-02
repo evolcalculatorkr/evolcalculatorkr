@@ -45,14 +45,14 @@
 
 <body>
 	<template>
-		<p>你的浏览器不支持此版本，可尝试在QQ浏览器、Chrome浏览器中打开，或<a href="https://evolcalculatorkr.github.io/index-v1.html">使用1.0版本</a></p>
+		<p>지금 사용하시는 브라우저는 이 버전의 계산기를 지원하지 않습니다. 될 수 있는대로 Google 크롬을 사용하시는 것을 권장하며, <a href="https://evolcalculatorkr.github.io/index-v1.html">계산기 v1.0</a>을 사용하실 수도 있습니다.</p>
 	</template>
     <div id="app" v-cloak>
         <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
-                        <span class="sr-only">切换导航</span>
+                        <span class="sr-only">메뉴전환</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -82,9 +82,9 @@
                         <a href="https://evolcalculatorkr.github.io/index-v1.html">계산기 v1.0</a>
                         <br>
                         <h4>사용설명</h4>
-                        首次使用请先<a href="javascript:;" @click="nav = 'card'">添加羁绊</a>，支持<a href="javascript:;" @click="show_batch('import_data')">导入/导出</a>和<a href="javascript:;" @click="show_login('create_user')">在线保存</a>。
+                        계산기를 처음 사용하실 때는 <a href="javascript:;" @click="nav = 'card'">본인이 소유한 운명을 저장해주세요.</a>，<a href="javascript:;" @click="show_batch('import_data')">한꺼번에 가져오기/내보내기</a>와<a href="javascript:;" @click="show_login('create_user')">온라인 저장</a>을 지원합니다.
                         <br>
-                        기능：<a href="javascript:;" @click="nav = 'level'">스테이지 계산</a>、<a href="javascript:;" @click="nav = 'ticket'">시청률 쟁탈전</a>、<a href="javascript:;" @click="show_double()">운명 분석</a>、<a href="javascript:;" @click="nav = 'challenge'">24시간 도전</a>。
+                        기능：<a href="javascript:;" @click="nav = 'level'">스테이지 계산</a>、<a href="javascript:;" @click="nav = 'ticket'">시청률 쟁탈전</a>、<a href="javascript:;" @click="show_double()">운명 분석</a>、<a href="javascript:;" @click="nav = 'challenge'">24시간 도전</a>
                         <br>
 
                         <h4>데이터 출처</h4> 가중 데이터 출처 <a href="https://weibo.com/unnamedgroup" target="_blank">@恋与制作人未命名攻略组</a>
@@ -1255,7 +1255,7 @@
                                 <input type="radio" v-model="levels.r" value="evolved"> 진화후
                             </label>
                             <label>
-                                <input type="radio" v-model="levels.r" value="evolved2"> 新满级
+                                <input type="radio" v-model="levels.r" value="evolved2"> 최종승급
                             </label>
                         </div>
                         <div class="radio" v-show="double.option == 'all'">
@@ -1313,7 +1313,7 @@
                             </label>
                         </div>
                     </div>
-                    <p class="help-block">点击设置自定义显示项目<span v-show="double.option == 'all'">；紫色为已获得羁绊。</span></p>
+                    <p class="help-block">설정을 클릭해서 원하는 항목을 설정할 수 있습니다<span v-show="double.option == 'all'">.보라색은 이미 획득한 운명입니다.</span></p>
 
                     <ul class="nav nav-tabs" style="margin-top: 10px;">
                         <li role="presentation" :class="{active: double.option == 'all'}"><a href="javascript:;" @click="double.option = 'all'">全部羁绊</a></li>
@@ -1322,33 +1322,33 @@
                     <table class="table table-bordered table-hover table-score" v-show="double.option == 'all'">
                         <thead>
                             <tr>
-                                <th>名称</th>
+                                <th>운명 이름</th>
 
-                                <th v-show="levels.cols.indexOf('value') >= 0" @click="sort_double('decisiveness')">决策 <span v-show="levels.sort == 'decisiveness'">▼</span></th>
-                                <th v-show="levels.cols.indexOf('value') >= 0" @click="sort_double('creativity')">创造 <span v-show="levels.sort == 'creativity'">▼</span></th>
-                                <th v-show="levels.cols.indexOf('value') >= 0" @click="sort_double('kindness')">亲和 <span v-show="levels.sort == 'kindness'">▼</span></th>
-                                <th v-show="levels.cols.indexOf('value') >= 0" @click="sort_double('activity')">行动 <span v-show="levels.sort == 'activity'">▼</span></th>
+                                <th v-show="levels.cols.indexOf('value') >= 0" @click="sort_double('decisiveness')">결단력 <span v-show="levels.sort == 'decisiveness'">▼</span></th>
+                                <th v-show="levels.cols.indexOf('value') >= 0" @click="sort_double('creativity')">창의력 <span v-show="levels.sort == 'creativity'">▼</span></th>
+                                <th v-show="levels.cols.indexOf('value') >= 0" @click="sort_double('kindness')">친화력 <span v-show="levels.sort == 'kindness'">▼</span></th>
+                                <th v-show="levels.cols.indexOf('value') >= 0" @click="sort_double('activity')">추진력 <span v-show="levels.sort == 'activity'">▼</span></th>
 
-                                <th v-show="levels.cols.indexOf('rate') >= 0" @click="sort_double('decisiveness_rate')">决策 <span v-show="levels.sort == 'decisiveness_rate'">▼</span></th>
-                                <th v-show="levels.cols.indexOf('rate') >= 0" @click="sort_double('creativity_rate')">创造 <span v-show="levels.sort == 'creativity_rate'">▼</span></th>
-                                <th v-show="levels.cols.indexOf('rate') >= 0" @click="sort_double('kindness_rate')">亲和 <span v-show="levels.sort == 'kindness_rate'">▼</span></th>
-                                <th v-show="levels.cols.indexOf('rate') >= 0" @click="sort_double('activity_rate')">行动 <span v-show="levels.sort == 'activity_rate'">▼</span></th>
+                                <th v-show="levels.cols.indexOf('rate') >= 0" @click="sort_double('decisiveness_rate')">결단력 <span v-show="levels.sort == 'decisiveness_rate'">▼</span></th>
+                                <th v-show="levels.cols.indexOf('rate') >= 0" @click="sort_double('creativity_rate')">창의력 <span v-show="levels.sort == 'creativity_rate'">▼</span></th>
+                                <th v-show="levels.cols.indexOf('rate') >= 0" @click="sort_double('kindness_rate')">친화력 <span v-show="levels.sort == 'kindness_rate'">▼</span></th>
+                                <th v-show="levels.cols.indexOf('rate') >= 0" @click="sort_double('activity_rate')">추진력 <span v-show="levels.sort == 'activity_rate'">▼</span></th>
 
-                                <th v-show="levels.cols.indexOf('decisiveness') >= 0" @click="sort_double('decisiveness_creativity')">决策<br>创造 <span v-show="levels.sort == 'decisiveness_creativity'">▼</span></th>
-                                <th v-show="levels.cols.indexOf('decisiveness') >= 0" @click="sort_double('decisiveness_kindness')">决策<br>亲和 <span v-show="levels.sort == 'decisiveness_kindness'">▼</span></th>
-                                <th v-show="levels.cols.indexOf('decisiveness') >= 0" @click="sort_double('decisiveness_activity')">决策<br>行动 <span v-show="levels.sort == 'decisiveness_activity'">▼</span></th>
+                                <th v-show="levels.cols.indexOf('decisiveness') >= 0" @click="sort_double('decisiveness_creativity')">결단력<br>창의력 <span v-show="levels.sort == 'decisiveness_creativity'">▼</span></th>
+                                <th v-show="levels.cols.indexOf('decisiveness') >= 0" @click="sort_double('decisiveness_kindness')">결단력<br>친화력 <span v-show="levels.sort == 'decisiveness_kindness'">▼</span></th>
+                                <th v-show="levels.cols.indexOf('decisiveness') >= 0" @click="sort_double('decisiveness_activity')">결단력<br>추진력 <span v-show="levels.sort == 'decisiveness_activity'">▼</span></th>
 
-                                <th v-show="levels.cols.indexOf('creativity') >= 0" @click="sort_double('creativity_decisiveness')">创造<br>决策 <span v-show="levels.sort == 'creativity_decisiveness'">▼</span></th>
-                                <th v-show="levels.cols.indexOf('creativity') >= 0" @click="sort_double('creativity_kindness')">创造<br>亲和 <span v-show="levels.sort == 'creativity_kindness'">▼</span></th>
-                                <th v-show="levels.cols.indexOf('creativity') >= 0" @click="sort_double('creativity_activity')">创造<br>行动 <span v-show="levels.sort == 'creativity_activity'">▼</span></th>
+                                <th v-show="levels.cols.indexOf('creativity') >= 0" @click="sort_double('creativity_decisiveness')">창의력<br>결단력 <span v-show="levels.sort == 'creativity_decisiveness'">▼</span></th>
+                                <th v-show="levels.cols.indexOf('creativity') >= 0" @click="sort_double('creativity_kindness')">창의력<br>친화력 <span v-show="levels.sort == 'creativity_kindness'">▼</span></th>
+                                <th v-show="levels.cols.indexOf('creativity') >= 0" @click="sort_double('creativity_activity')">창의력<br>추진력 <span v-show="levels.sort == 'creativity_activity'">▼</span></th>
                                 
-                                <th v-show="levels.cols.indexOf('kindness') >= 0" @click="sort_double('kindness_decisiveness')">亲和<br>决策 <span v-show="levels.sort == 'kindness_decisiveness'">▼</span></th>
-                                <th v-show="levels.cols.indexOf('kindness') >= 0" @click="sort_double('kindness_creativity')">亲和<br>创造 <span v-show="levels.sort == 'kindness_creativity'">▼</span></th>
-                                <th v-show="levels.cols.indexOf('kindness') >= 0" @click="sort_double('kindness_activity')">亲和<br>行动 <span v-show="levels.sort == 'kindness_activity'">▼</span></th>
+                                <th v-show="levels.cols.indexOf('kindness') >= 0" @click="sort_double('kindness_decisiveness')">친화력<br>결단력 <span v-show="levels.sort == 'kindness_decisiveness'">▼</span></th>
+                                <th v-show="levels.cols.indexOf('kindness') >= 0" @click="sort_double('kindness_creativity')">친화력<br>창의력 <span v-show="levels.sort == 'kindness_creativity'">▼</span></th>
+                                <th v-show="levels.cols.indexOf('kindness') >= 0" @click="sort_double('kindness_activity')">친화력<br>추진력 <span v-show="levels.sort == 'kindness_activity'">▼</span></th>
                                 
-                                <th v-show="levels.cols.indexOf('activity') >= 0" @click="sort_double('activity_decisiveness')">行动<br>决策 <span v-show="levels.sort == 'activity_decisiveness'">▼</span></th>
-                                <th v-show="levels.cols.indexOf('activity') >= 0" @click="sort_double('activity_creativity')">行动<br>创造 <span v-show="levels.sort == 'activity_creativity'">▼</span></th>
-                                <th v-show="levels.cols.indexOf('activity') >= 0" @click="sort_double('activity_kindness')">行动<br>亲和 <span v-show="levels.sort == 'activity_kindness'">▼</span></th>
+                                <th v-show="levels.cols.indexOf('activity') >= 0" @click="sort_double('activity_decisiveness')">추진력<br>결단력 <span v-show="levels.sort == 'activity_decisiveness'">▼</span></th>
+                                <th v-show="levels.cols.indexOf('activity') >= 0" @click="sort_double('activity_creativity')">추진력<br>창의력 <span v-show="levels.sort == 'activity_creativity'">▼</span></th>
+                                <th v-show="levels.cols.indexOf('activity') >= 0" @click="sort_double('activity_kindness')">추진력<br>친화력 <span v-show="levels.sort == 'activity_kindness'">▼</span></th>
 
                                 <th v-show="levels.cols.indexOf('gain') >= 0">获取</th>
                             </tr>
