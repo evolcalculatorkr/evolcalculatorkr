@@ -432,7 +432,7 @@
                             <div class="radio">
                                 <span>筛选：</span>
                                 <label>
-                                    <input type="radio" v-model="levels.card" value="my"> 我的羁绊
+                                    <input type="radio" v-model="levels.card" value="my"> 나의운명($我的羁绊)
                                 </label>
                                 <label>
                                     <input type="radio" v-model="levels.card" value="all"> 所有羁绊
@@ -447,10 +447,10 @@
                                     <input type="radio" v-model="levels.r" value="remain"> 不改变
                                 </label>
                                 <label>
-                                    <input type="radio" v-model="levels.r" value="ordinary"> 进化前
+                                    <input type="radio" v-model="levels.r" value="ordinary"> 진화전($进化前)
                                 </label>
                                 <label>
-                                    <input type="radio" v-model="levels.r" value="evolved"> 进化后
+                                    <input type="radio" v-model="levels.r" value="evolved"> 진화후($进化后)
                                 </label>
                                 <label>
                                     <input type="radio" v-model="levels.r" value="evolved2"> 新满级
@@ -465,10 +465,10 @@
                                     <input type="radio" v-model="levels.sr" value="remain"> 不改变
                                 </label>
                                 <label>
-                                    <input type="radio" v-model="levels.sr" value="ordinary"> 进化前
+                                    <input type="radio" v-model="levels.sr" value="ordinary"> 진화전($进化前)
                                 </label>
                                 <label>
-                                    <input type="radio" v-model="levels.sr" value="evolved"> 进化后
+                                    <input type="radio" v-model="levels.sr" value="evolved"> 진화후($进化后)
                                 </label>
                                 <label>
                                     <input type="radio" v-model="levels.sr" value="evolved2"> 新满级
@@ -483,10 +483,10 @@
                                     <input type="radio" v-model="levels.ssr" value="remain"> 不改变
                                 </label>
                                 <label>
-                                    <input type="radio" v-model="levels.ssr" value="ordinary"> 进化前
+                                    <input type="radio" v-model="levels.ssr" value="ordinary"> 진화전($进化前)
                                 </label>
                                 <label>
-                                    <input type="radio" v-model="levels.ssr" value="evolved"> 进化后
+                                    <input type="radio" v-model="levels.ssr" value="evolved"> 진화후($进化后)
                                 </label>
                                 <label>
                                     <input type="radio" v-model="levels.ssr" value="evolved2"> 新满级
@@ -580,7 +580,7 @@
                             </select>
                         </div>
                         <div class="col-xs-4 col-md-3 col-lg-2">
-                            <label class="label-above">별점</label>
+                            <label class="label-above">별점등급</label>
                             <select class="form-control" v-model="tickets.star">
                                 <option :value="i" v-for="i in [3,4,5]">{{i}}</option>
                             </select>
@@ -745,7 +745,7 @@
                             <div class="radio">
                                 <span>筛选：</span>
                                 <label>
-                                    <input type="radio" v-model="levels.card" value="my"> 我的羁绊
+                                    <input type="radio" v-model="levels.card" value="my"> 나의운명($我的羁绊)
                                 </label>
                                 <label>
                                     <input type="radio" v-model="levels.card" value="all"> 所有羁绊
@@ -1165,7 +1165,7 @@
                     </div>
                     <div v-show="!empty(challenges.challenge)">
                         <h4>
-                            <span>我的羁绊</span>
+                            <span>나의운명($我的羁绊)</span>
                             <small><a href="javascript:;" @click="challenge_reset_click()">重置</a></small>
                         </h4>
                         <p><small>已添加：{{challenges.cards.length}}</small></p>
@@ -1479,7 +1479,7 @@
                                     </select>
                                 </div>
                                 <div class="col-xs-4 col-md-3 col-lg-2">
-                                    <label class="label-above">星级</label>
+                                    <label class="label-above">별점등급($星级)</label>
                                     <input type="number" class="form-control" v-model="card_select.star">
                                 </div>
                                 <div class="col-xs-4 col-md-3 col-lg-2">
@@ -1563,7 +1563,7 @@
                             <p>得分：{{levels.select.score}}</p>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                            <button type="button" class="btn btn-default" data-dismiss="modal">취소($取消)</button>
                             <button type="button" class="btn btn-primary" @click="save_combine()">保存</button>
                         </div>
                     </div>
@@ -1800,12 +1800,12 @@
                                 <div class="col-xs-4 col-md-3 col-lg-2">
                                     <label class="label-above">진화</label>
                                     <select class="form-control" v-model="challenges.select.evolved">
-                                        <option value="0">未进化</option>
+                                        <option value="0">진화전($未进化)</option>
                                         <option value="1">진화</option>
                                     </select>
                                 </div>
                                 <div class="col-xs-4 col-md-3 col-lg-2">
-                                    <label class="label-above">星级</label>
+                                    <label class="label-above">별점등급($星级)</label>
                                     <input type="number" class="form-control" v-model="challenges.select.star">
                                 </div>
                                 <div class="col-xs-4 col-md-3 col-lg-2">
@@ -1840,7 +1840,7 @@
                             <p class="help-block">
                                 <a href="javascript:;" @click="challenges.select.show_head = !challenges.select.show_head">显示头像▼</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 <a href="javascript:;" @click="use_challenge_card(0, 2, false)" v-show="this.challenges.select.card_id != 0">初级</a>&nbsp;
-                                <a href="javascript:;" @click="use_challenge_card(0, 0, false)" v-show="this.challenges.select.card_id != 0">未进化</a>&nbsp;
+                                <a href="javascript:;" @click="use_challenge_card(0, 0, false)" v-show="this.challenges.select.card_id != 0">진화전($未进化)</a>&nbsp;
                                 <a href="javascript:;" @click="use_challenge_card(0, 1, false)" v-show="this.challenges.select.card_id != 0">满级</a>
                                 <a href="javascript:;" @click="use_challenge_card(0, 1, true)" v-show="this.challenges.select.card_id != 0">新满级</a>
                             </p>
@@ -1892,7 +1892,7 @@
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" @click="save_challenge_card(true)" style="color: #000;">清空</button>
-                            <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                            <button type="button" class="btn btn-default" data-dismiss="modal">취소($取消)</button>
                             <button type="button" class="btn btn-primary" @click="save_challenge_card(false)">保存</button>
                         </div>
                     </div>
@@ -1920,7 +1920,7 @@
                                     </select>
                                 </div>
                                 <div class="col-xs-4 col-md-3 col-lg-2">
-                                    <label class="label-above">星级</label>
+                                    <label class="label-above">별점등급($星级)</label>
                                     <input type="number" class="form-control" v-model="challenges.select.star">
                                 </div>
                                 <div class="col-xs-4 col-md-3 col-lg-2">
@@ -1948,7 +1948,7 @@
                             </div>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                            <button type="button" class="btn btn-default" data-dismiss="modal">취소($取消)</button>
                             <button type="button" class="btn btn-primary" @click="save_challenge_edit()">저장</button>
                         </div>
                     </div>
@@ -2003,12 +2003,12 @@
                                 <div class="col-xs-4 col-md-3 col-lg-2">
                                     <label class="label-above">进化</label>
                                     <select class="form-control" v-model="tickets.select.evolved">
-                                        <option value="0">未进化</option>
+                                        <option value="0">진화전($未进化)</option>
                                         <option value="1">进化</option>
                                     </select>
                                 </div>
                                 <div class="col-xs-4 col-md-3 col-lg-2">
-                                    <label class="label-above">星级</label>
+                                    <label class="label-above">별점등급($星级)</label>
                                     <input type="number" class="form-control" v-model="tickets.select.star">
                                 </div>
                                 <div class="col-xs-4 col-md-3 col-lg-2">
@@ -2102,7 +2102,7 @@
                                     </select>
                                 </div>
                                 <div class="col-xs-4 col-md-3 col-lg-2">
-                                    <label class="label-above">嘉宾</label>
+                                    <label class="label-above">특별 게스트($嘉宾)</label>
                                     <select class="form-control" v-model="ticket_select.category">
                                         <option value="1">이택언</option>
                                         <option value="2">허묵</option>
@@ -2111,7 +2111,7 @@
                                     </select>
                                 </div>
                                 <div class="col-xs-4 col-md-3 col-lg-2">
-                                    <label class="label-above">星级</label>
+                                    <label class="label-above">별점등급($星级)</label>
                                     <select class="form-control" v-model="ticket_select.star">
                                         <option :value="i" v-for="i in [3,4,5]">{{i}}</option>
                                     </select>
