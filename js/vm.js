@@ -4236,34 +4236,34 @@ var vm = new Vue({
             var ret = '';
             switch (category) {
                 case 1:
-                    ret = '普通';
+                    ret = '정규';
                     break;
                 case 2:
-                    ret = '精英';
+                    ret = '특집';
                     break;
                 case 3:
-                    ret = '副本-许墨';
+                    ret = '촬영장-허묵';
                     break;
                 case 4:
-                    ret = '副本-白起';
+                    ret = '촬영장-백기';
                     break;
                 case 5:
-                    ret = '副本-李泽言';
+                    ret = '촬영장-이택언';
                     break;
                 case 6:
-                    ret = '副本-周棋洛';
+                    ret = '촬영장-주기락';
                     break;
                 case 7:
-                    ret = '李泽言生日';
+                    ret = '이택언생일';
                     break;
                 case 8:
-                    ret = '白起情人节';
+                    ret = '백기발렌타인데이';
                     break;
                 case 9:
-                    ret = '周棋洛生日';
+                    ret = '주기락생일';
                     break;
                 case 10:
-                    ret = '周棋洛活动';
+                    ret = '주기락활동';
                     break;
             }
             return ret;
