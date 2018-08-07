@@ -4289,7 +4289,7 @@ var vm = new Vue({
         },
         //进化标签
         get_evolved_tag: function(evolved) {
-            var ret = evolved == 1 ? '进化' : '未进化';
+            var ret = evolved == 1 ? '진화' : '진화전';
             return ret;
         },
         //类型标签
