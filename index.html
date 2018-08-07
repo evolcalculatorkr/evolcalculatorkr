@@ -192,8 +192,8 @@
                     <table class="table table-bordered table-hover" v-show="!empty(list)">
                         <thead>
                             <tr>
-                                <th>名称</th>
-                                <th>等级</th>
+                                <th>이름($名称)</th>
+                                <th>레벨($等级)</th>
                                 <th class="hidden-xs">결단력</th>
                                 <th class="hidden-xs">창의력</th>
                                 <th class="hidden-xs">친화력</th>
@@ -257,8 +257,8 @@
                     <table class="table table-bordered table-hover" v-show="!empty(all_cards)">
                         <thead>
                             <tr>
-                                <th>名称</th>
-                                <th>操作</th>
+                                <th>이름($名称)</th>
+                                <th>메뉴($操作)</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -270,10 +270,10 @@
                                     已添加
                                 </td>
                                 <td v-else>
-                                    <a href="javascript:;" @click="add_my_card(item.card_id, 'evolved', true)" v-show="item.type >= 3">添加新满级</a>
-                                    <a href="javascript:;" @click="add_my_card(item.card_id, 'evolved', false)" v-show="item.type >= 3">添加满级</a>
-                                    <a href="javascript:;" @click="add_my_card(item.card_id, 'normal', false)">添加未进化</a>
-                                    <a href="javascript:;" @click="add_custom_card(item.card_id)">添加自定义</a>
+                                    <a href="javascript:;" @click="add_my_card(item.card_id, 'evolved', true)" v-show="item.type >= 3">최종승급추가($添加新满级)</a>
+                                    <a href="javascript:;" @click="add_my_card(item.card_id, 'evolved', false)" v-show="item.type >= 3">진화추가($添加满级)</a>
+                                    <a href="javascript:;" @click="add_my_card(item.card_id, 'normal', false)">진화전추가($添加未进化)</a>
+                                    <a href="javascript:;" @click="add_custom_card(item.card_id)">사용자설정추가($添加自定义)</a>
                                 </td>
                             </tr>
                             <tr v-show="!all_card_expand && all_cards_filtered.length > all_card_limit">
@@ -420,7 +420,7 @@
                             </tbody>
                         </table>
                         <div class="form-group">
-                            <p class="help-block">注：过关分数存在误差仅供参考，压线过关需谨慎</p>
+                            <p class="help-block">주의:통과점수는 참고용입니다.($注：过关分数存在误差仅供参考，压线过关需谨慎)</p>
                         </div>
                     </div>
                     <div v-show="!empty(levels.cards)">
@@ -435,16 +435,16 @@
                                     <input type="radio" v-model="levels.card" value="my"> 나의운명($我的羁绊)
                                 </label>
                                 <label>
-                                    <input type="radio" v-model="levels.card" value="all"> 所有羁绊
+                                    <input type="radio" v-model="levels.card" value="all"> 모든운명($所有羁绊)
                                 </label>
                             </div>
                             <div class="radio" v-show="levels.card == 'all'">
                                 <span>R：</span>
                                 <label>
-                                    <input type="radio" v-model="levels.r" value="hidden"> 隐藏
+                                    <input type="radio" v-model="levels.r" value="hidden"> 숨기기($隐藏)
                                 </label>
                                 <label v-show="levels.card == 'my'">
-                                    <input type="radio" v-model="levels.r" value="remain"> 不改变
+                                    <input type="radio" v-model="levels.r" value="remain"> 유지($不改变)
                                 </label>
                                 <label>
                                     <input type="radio" v-model="levels.r" value="ordinary"> 진화전($进化前)
@@ -453,16 +453,16 @@
                                     <input type="radio" v-model="levels.r" value="evolved"> 진화후($进化后)
                                 </label>
                                 <label>
-                                    <input type="radio" v-model="levels.r" value="evolved2"> 新满级
+                                    <input type="radio" v-model="levels.r" value="evolved2"> 최종승급($新满级)
                                 </label>
                             </div>
                             <div class="radio" v-show="levels.card == 'all'">
                                 <span>SR：</span>
                                 <label>
-                                    <input type="radio" v-model="levels.sr" value="hidden"> 隐藏
+                                    <input type="radio" v-model="levels.sr" value="hidden"> 숨기기($隐藏)
                                 </label>
                                 <label v-show="levels.card == 'my'">
-                                    <input type="radio" v-model="levels.sr" value="remain"> 不改变
+                                    <input type="radio" v-model="levels.sr" value="remain"> 유지($不改变)
                                 </label>
                                 <label>
                                     <input type="radio" v-model="levels.sr" value="ordinary"> 진화전($进化前)
@@ -471,16 +471,16 @@
                                     <input type="radio" v-model="levels.sr" value="evolved"> 진화후($进化后)
                                 </label>
                                 <label>
-                                    <input type="radio" v-model="levels.sr" value="evolved2"> 新满级
+                                    <input type="radio" v-model="levels.sr" value="evolved2"> 최종승급($新满级)
                                 </label>
                             </div>
                             <div class="radio" v-show="levels.card == 'all'">
                                 <span>SSR：</span>
                                 <label>
-                                    <input type="radio" v-model="levels.ssr" value="hidden"> 隐藏
+                                    <input type="radio" v-model="levels.ssr" value="hidden"> 숨기기($隐藏)
                                 </label>
                                 <label v-show="levels.card == 'my'">
-                                    <input type="radio" v-model="levels.ssr" value="remain"> 不改变
+                                    <input type="radio" v-model="levels.ssr" value="remain"> 유지($不改变)
                                 </label>
                                 <label>
                                     <input type="radio" v-model="levels.ssr" value="ordinary"> 진화전($进化前)
@@ -489,7 +489,7 @@
                                     <input type="radio" v-model="levels.ssr" value="evolved"> 진화후($进化后)
                                 </label>
                                 <label>
-                                    <input type="radio" v-model="levels.ssr" value="evolved2"> 新满级
+                                    <input type="radio" v-model="levels.ssr" value="evolved2"> 최종승급($新满级)
                                 </label>
                             </div>
                         </div>
@@ -497,9 +497,9 @@
                         <table class="table table-bordered table-hover">
                             <thead>
                                 <tr>
-                                    <th>名称</th>
-                                    <th>等级</th>
-                                    <th class="hidden-xs">결단력ㄱ</th>
+                                    <th>이름($名称)</th>
+                                    <th>레벨($等级)</th>
+                                    <th class="hidden-xs">결단력</th>
                                     <th class="hidden-xs">창의력</th>
                                     <th class="hidden-xs">친화력</th>
                                     <th class="hidden-xs">추진력</th>
@@ -754,10 +754,10 @@
                             <div class="radio" v-show="levels.card == 'all'">
                                 <span>R：</span>
                                 <label>
-                                    <input type="radio" v-model="levels.r" value="hidden"> 隐藏
+                                    <input type="radio" v-model="levels.r" value="hidden"> 숨기기($隐藏)
                                 </label>
                                 <label v-show="levels.card == 'my'">
-                                    <input type="radio" v-model="levels.r" value="remain"> 不改变
+                                    <input type="radio" v-model="levels.r" value="remain"> 유지($不改变)
                                 </label>
                                 <label>
                                     <input type="radio" v-model="levels.r" value="ordinary"> 진화전
@@ -772,10 +772,10 @@
                             <div class="radio" v-show="levels.card == 'all'">
                                 <span>SR：</span>
                                 <label>
-                                    <input type="radio" v-model="levels.sr" value="hidden"> 隐藏
+                                    <input type="radio" v-model="levels.sr" value="hidden"> 숨기기($隐藏)
                                 </label>
                                 <label v-show="levels.card == 'my'">
-                                    <input type="radio" v-model="levels.sr" value="remain"> 不改变
+                                    <input type="radio" v-model="levels.sr" value="remain"> 유지($不改变)
                                 </label>
                                 <label>
                                     <input type="radio" v-model="levels.sr" value="ordinary"> 진화전
@@ -790,10 +790,10 @@
                             <div class="radio" v-show="levels.card == 'all'">
                                 <span>SSR：</span>
                                 <label>
-                                    <input type="radio" v-model="levels.ssr" value="hidden"> 隐藏
+                                    <input type="radio" v-model="levels.ssr" value="hidden"> 숨기기($隐藏)
                                 </label>
                                 <label v-show="levels.card == 'my'">
-                                    <input type="radio" v-model="levels.ssr" value="remain"> 不改变
+                                    <input type="radio" v-model="levels.ssr" value="remain"> 유지($不改变)
                                 </label>
                                 <label>
                                     <input type="radio" v-model="levels.ssr" value="ordinary"> 진화전
@@ -810,8 +810,8 @@
                         <table class="table table-bordered table-hover">
                             <thead>
                                 <tr>
-                                    <th>名称</th>
-                                    <th>等级</th>
+                                    <th>이름($名称)</th>
+                                    <th>레벨($等级)</th>
                                     <th class="hidden-xs">결단력</th>
                                     <th class="hidden-xs">창의력</th>
                                     <th class="hidden-xs">친화력</th>
@@ -1173,8 +1173,8 @@
                         <table class="table table-bordered table-hover" v-show="!empty(challenges.cards)">
                             <thead>
                                 <tr>
-                                    <th>名称</th>
-                                    <th class="hidden-xs">等级</th>
+                                    <th>이름($名称)</th>
+                                    <th class="hidden-xs">레벨($等级)</th>
                                     <th class="hidden-xs">결단력</th>
                                     <th class="hidden-xs">창의력</th>
                                     <th class="hidden-xs">친화력</th>
@@ -1483,7 +1483,7 @@
                                     <input type="number" class="form-control" v-model="card_select.star">
                                 </div>
                                 <div class="col-xs-4 col-md-3 col-lg-2">
-                                    <label class="label-above">等级</label>
+                                    <label class="label-above">레벨($等级)</label>
                                     <input type="number" class="form-control" v-model="card_select.level">
                                 </div>
                             </div>
@@ -1538,7 +1538,7 @@
                                     <input type="number" class="form-control" v-model="levels.select.star">
                                 </div>
                                 <div class="col-xs-4 col-md-3 col-lg-2">
-                                    <label class="label-above">等级</label>
+                                    <label class="label-above">레벨($等级)</label>
                                     <input type="number" class="form-control" v-model="levels.select.level">
                                 </div>
                             </div>
@@ -1711,7 +1711,7 @@
                                 <table class="table table-bordered table-hover" :style="{'min-width': challenges.mode == '0' ? '450px' : '500px'}">
                                     <thead>
                                         <tr>
-                                            <th>名称</th>
+                                            <th>이름($名称)</th>
                                             <!-- <th class="hidden-xs">决策</th>
                                             <th class="hidden-xs">创造</th>
                                             <th class="hidden-xs">亲和</th>
@@ -1809,7 +1809,7 @@
                                     <input type="number" class="form-control" v-model="challenges.select.star">
                                 </div>
                                 <div class="col-xs-4 col-md-3 col-lg-2">
-                                    <label class="label-above">等级</label>
+                                    <label class="label-above">레벨($等级)</label>
                                     <input type="number" class="form-control" v-model="challenges.select.level">
                                 </div>
                             </div>
@@ -1842,7 +1842,7 @@
                                 <a href="javascript:;" @click="use_challenge_card(0, 2, false)" v-show="this.challenges.select.card_id != 0">初级</a>&nbsp;
                                 <a href="javascript:;" @click="use_challenge_card(0, 0, false)" v-show="this.challenges.select.card_id != 0">진화전($未进化)</a>&nbsp;
                                 <a href="javascript:;" @click="use_challenge_card(0, 1, false)" v-show="this.challenges.select.card_id != 0">满级</a>
-                                <a href="javascript:;" @click="use_challenge_card(0, 1, true)" v-show="this.challenges.select.card_id != 0">新满级</a>
+                                <a href="javascript:;" @click="use_challenge_card(0, 1, true)" v-show="this.challenges.select.card_id != 0">최종승급($新满级)</a>
                             </p>
                             <div v-show="challenges.select.show_head">
                                 <div class="form-group clearfix">
@@ -1924,7 +1924,7 @@
                                     <input type="number" class="form-control" v-model="challenges.select.star">
                                 </div>
                                 <div class="col-xs-4 col-md-3 col-lg-2">
-                                    <label class="label-above">等级</label>
+                                    <label class="label-above">레벨($等级)</label>
                                     <input type="number" class="form-control" v-model="challenges.select.level">
                                 </div>
                             </div>
@@ -2012,7 +2012,7 @@
                                     <input type="number" class="form-control" v-model="tickets.select.star">
                                 </div>
                                 <div class="col-xs-4 col-md-3 col-lg-2">
-                                    <label class="label-above">等级</label>
+                                    <label class="label-above">레벨($等级)</label>
                                     <input type="number" class="form-control" v-model="tickets.select.level">
                                 </div>
                             </div>
@@ -2051,8 +2051,8 @@
                     <div class="modal-content">
                         <div class="modal-body">
                             <ul class="nav nav-tabs">
-                                <li role="presentation" :class="{active: batch.option == 'import_data'}"><a href="javascript:;" @click="show_batch('import_data')">批量导入</a></li>
-                                <li role="presentation" :class="{active: batch.option == 'export_data'}"><a href="javascript:;" @click="show_batch('export_data')">批量导出</a></li>
+                                <li role="presentation" :class="{active: batch.option == 'import_data'}"><a href="javascript:;" @click="show_batch('import_data')">한꺼번에 가져오기($批量导入)</a></li>
+                                <li role="presentation" :class="{active: batch.option == 'export_data'}"><a href="javascript:;" @click="show_batch('export_data')">한꺼번에 내보내기($批量导出)</a></li>
                             </ul>
                             <div class="modal-main">
                                 <div class="radio">
