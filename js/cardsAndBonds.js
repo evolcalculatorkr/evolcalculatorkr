@@ -96,7 +96,7 @@ function addCard() {
     evol_card["creativity"] = creativity;
     evol_card["appetency"] = appetency;
     evol_card["action"] = action;
-    evol_card["way"] = "自定义";
+    evol_card["way"] = "편집";
     evol_card["id"] = (new Date()).valueOf();
     alert("운명: "+name+" 추가 성공!");
     mycards["user-defined"].push(evol_card);
