@@ -1638,7 +1638,7 @@ var bonds = [
         "rarity": "R", 
         "way": "2018\u65b0\u5e74\u5151\u6362\u7801", 
         "action": "1299"
-    }
+    },
 	{
         "name": "백기:내곁의따스함", 
         "character": "백기", 
@@ -1648,7 +1648,7 @@ var bonds = [
         "rarity": "SR",
         "way": "2018백기생일이벤트", 
         "action": "1239"
-    }
+    },
 	{
         "name": "백기:달콤한꿈", 
         "character": "백기", 
@@ -1658,7 +1658,7 @@ var bonds = [
         "rarity": "R", 
         "way": "2018백기생일이벤트", 
         "action": "1268"
-    }
+    },
 	{
         "name": "주기락:너의모습", 
         "character": "주기락", 
