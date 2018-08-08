@@ -64,7 +64,7 @@ function showBonds() {
     for (var i in bonds) {
         if (cnt < max_bonds) {
             if (bondFilter(bonds[i])) {
-                str += "<tr id=\""+bonds[i]["name"]+"\"><td>"+bonds[i]["name"]+"</td><td>"+bonds[i]["rarity"]+"</td><td>"+bonds[i]["character"]+"</td><td>"+bonds[i]["way"]+"</td><td><a href=\"javascript:void(0);\" onclick=\"addBond('"+bonds[i]["name"]+"')\">添加</a></td></tr>";
+                str += "<tr id=\""+bonds[i]["name"]+"\"><td>"+bonds[i]["name"]+"</td><td>"+bonds[i]["rarity"]+"</td><td>"+bonds[i]["character"]+"</td><td>"+bonds[i]["way"]+"</td><td><a href=\"javascript:void(0);\" onclick=\"addBond('"+bonds[i]["name"]+"')\">추가</a></td></tr>";
                 cnt ++;
             }
         }
@@ -81,9 +81,9 @@ function showBonds() {
 function addtoggleBonds() {
     var str;
     if (toggle_bonds)
-        str = "<tr><td colspan=\"9\"><a href=\"javascript:void(0);\" onclick=\"toggleBonds()\">展开▼</a></td></tr>";
+        str = "<tr><td colspan=\"9\"><a href=\"javascript:void(0);\" onclick=\"toggleBonds()\">더보기▼</a></td></tr>";
     else
-        str = "<tr><td colspan=\"9\"><a href=\"javascript:void(0);\" onclick=\"toggleBonds()\">收起▲</a></td></tr>";
+        str = "<tr><td colspan=\"9\"><a href=\"javascript:void(0);\" onclick=\"toggleBonds()\">접기▲</a></td></tr>";
     $('#bonds-table').append(str);
 }
 
@@ -99,9 +99,9 @@ function toggleBonds() {
 function addtoggleCards() {
     var str;
     if (toggle_cards)
-        str = "<tr><td colspan=\"9\"><a href=\"javascript:void(0);\" onclick=\"toggleCards()\">展开▼</a></td></tr>";
+        str = "<tr><td colspan=\"9\"><a href=\"javascript:void(0);\" onclick=\"toggleCards()\">더보기▼</a></td></tr>";
     else
-        str = "<tr><td colspan=\"9\"><a href=\"javascript:void(0);\" onclick=\"toggleCards()\">收起▲</a></td></tr>";
+        str = "<tr><td colspan=\"9\"><a href=\"javascript:void(0);\" onclick=\"toggleCards()\">접기▲</a></td></tr>";
     $('#card-table').append(str);
 }
 
