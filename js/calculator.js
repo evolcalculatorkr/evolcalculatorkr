@@ -34,7 +34,7 @@ function loadName(category) {
         tmp_character = "허묵";
     }
     else {
-        $('#stage-character').append("<option value=\"허묵\">无</option>");
+        $('#stage-character').append("<option value=\"허묵\">없음($无)</option>");
         tmp_character = "허묵";
     }
 
