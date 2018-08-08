@@ -1639,4 +1639,34 @@ var bonds = [
         "way": "2018\u65b0\u5e74\u5151\u6362\u7801", 
         "action": "1299"
     }
+	{
+        "name": "백기:내곁의따스함", 
+        "character": "백기", 
+        "decision": "2560", 
+        "creativity": "2708", 
+        "appetency": "65", 
+        "rarity": "SR",
+        "way": "2018백기생일이벤트", 
+        "action": "1239"
+    }
+	{
+        "name": "백기:달콤한꿈", 
+        "character": "백기", 
+        "decision": "1302", 
+        "creativity": "1550", 
+        "appetency": "40", 
+        "rarity": "R", 
+        "way": "2018백기생일이벤트", 
+        "action": "1268"
+    }
+	{
+        "name": "주기락:너의모습", 
+        "character": "주기락", 
+        "decision": "43", 
+        "creativity": "1171", 
+        "appetency": "1648", 
+        "rarity": "R", 
+        "way": "공카이벤트보상", 
+        "action": "1299"
+    }
 ]
