@@ -1,6 +1,6 @@
 var bonds = [
     {
-        "name": "엉키는시선", 
+        "name": "이택언:엉키는시선", 
         "character": "이택언", 
         "decision": "3136", 
         "creativity": "3581", 
@@ -10,7 +10,7 @@ var bonds = [
         "action": "2775"
     }, 
     {
-        "name": "기억의조각", 
+        "name": "허묵:기억의조각", 
         "character": "허묵", 
         "decision": "3556", 
         "creativity": "3184", 
@@ -20,7 +20,7 @@ var bonds = [
         "action": "2747"
     }, 
     {
-        "name": "별의바다", 
+        "name": "주기락:별의바다", 
         "character": "주기락", 
         "decision": "2744", 
         "creativity": "3578", 
@@ -30,7 +30,7 @@ var bonds = [
         "action": "3168"
     }, 
     {
-        "name": "모래가면", 
+        "name": "주기락:모래가면", 
         "character": "주기락", 
         "decision": "3520", 
         "creativity": "3147", 
@@ -40,7 +40,7 @@ var bonds = [
         "action": "2823"
     }, 
     {
-        "name": "약탈자", 
+        "name": "이택언:약탈자", 
         "character": "이택언", 
         "decision": "3113", 
         "creativity": "2744", 
@@ -50,7 +50,7 @@ var bonds = [
         "action": "3630"
     }, 
     {
-        "name": "여름의약속", 
+        "name": "주기락:여름의약속", 
         "character": "주기락", 
         "decision": "95", 
         "creativity": "4724", 
@@ -60,7 +60,7 @@ var bonds = [
         "action": "477"
     }, 
     {
-        "name": "첫눈의추억", 
+        "name": "주기락:첫눈의추억", 
         "character": "주기락", 
         "decision": "1335", 
         "creativity": "3913", 
@@ -70,7 +70,7 @@ var bonds = [
         "action": "1261"
     }, 
     {
-        "name": "깊이빠지다", 
+        "name": "허묵:깊이빠지다", 
         "character": "허묵", 
         "decision": "97", 
         "creativity": "3540", 
@@ -80,7 +80,7 @@ var bonds = [
         "action": "2786"
     }, 
     {
-        "name": "춤추는꽃잎", 
+        "name": "주기락:춤추는꽃잎", 
         "character": "주기락", 
         "decision": "94", 
         "creativity": "3532", 
@@ -90,7 +90,7 @@ var bonds = [
         "action": "2770"
     }, 
     {
-        "name": "집중", 
+        "name": "허묵:집중", 
         "character": "허묵", 
         "decision": "1264", 
         "creativity": "3901", 
@@ -100,7 +100,7 @@ var bonds = [
         "action": "1339"
     }, 
     {
-        "name": "벚꽃이지다", 
+        "name": "허묵:벚꽃이지다", 
         "character": "허묵", 
         "decision": "94", 
         "creativity": "2759", 
@@ -110,7 +110,7 @@ var bonds = [
         "action": "3587"
     }, 
     {
-        "name": "별과눈동자", 
+        "name": "백기:별과눈동자", 
         "character": "백기", 
         "decision": "95", 
         "creativity": "2817", 
@@ -120,7 +120,7 @@ var bonds = [
         "action": "3129"
     }, 
     {
-        "name": "그해가을", 
+        "name": "백기:그해가을", 
         "character": "백기", 
         "decision": "1867", 
         "creativity": "2472", 
@@ -130,7 +130,7 @@ var bonds = [
         "action": "2169"
     }, 
     {
-        "name": "귀기울이기", 
+        "name": "이택언:귀기울이기", 
         "character": "이택언", 
         "decision": "2153", 
         "creativity": "2514", 
@@ -140,7 +140,7 @@ var bonds = [
         "action": "65"
     }, 
     {
-        "name": "외로운섬", 
+        "name": "주기락:외로운섬", 
         "character": "주기락", 
         "decision": "2144", 
         "creativity": "2520", 
@@ -150,7 +150,7 @@ var bonds = [
         "action": "65"
     }, 
     {
-        "name": "빠져들다", 
+        "name": "허묵:빠져들다", 
         "character": "허묵", 
         "decision": "3826", 
         "creativity": "1344", 
@@ -160,7 +160,7 @@ var bonds = [
         "action": "1336"
     }, 
     {
-        "name": "잠못드는밤", 
+        "name": "이택언:잠못드는밤", 
         "character": "이택언", 
         "decision": "3870", 
         "creativity": "1355", 
@@ -170,7 +170,7 @@ var bonds = [
         "action": "66"
     }, 
     {
-        "name": "블랙카드", 
+        "name": "이택언:블랙카드", 
         "character": "이택언", 
         "decision": "3799", 
         "creativity": "94", 
@@ -180,7 +180,7 @@ var bonds = [
         "action": "2856"
     }, 
     {
-        "name": "따뜻한격려", 
+        "name": "이택언:따뜻한격려", 
         "character": "이택언", 
         "decision": "1943", 
         "creativity": "2414", 
@@ -190,7 +190,7 @@ var bonds = [
         "action": "65"
     }, 
     {
-        "name": "가르침", 
+        "name": "백기:가르침", 
         "character": "백기", 
         "decision": "2128", 
         "creativity": "1922", 
@@ -200,7 +200,7 @@ var bonds = [
         "action": "2457"
     }, 
     {
-        "name": "바다보다깊은", 
+        "name": "허묵:바다보다깊은", 
         "character": "허묵", 
         "decision": "2541", 
         "creativity": "1860", 
@@ -210,7 +210,7 @@ var bonds = [
         "action": "65"
     }, 
     {
-        "name": "뒤따르다", 
+        "name": "주기락:뒤따르다", 
         "character": "주기락", 
         "decision": "2473", 
         "creativity": "1887", 
@@ -220,7 +220,7 @@ var bonds = [
         "action": "65"
     }, 
     {
-        "name": "얽매인운명", 
+        "name": "주기락:얽매인운명", 
         "character": "주기락", 
         "decision": "1943", 
         "creativity": "2173", 
@@ -230,7 +230,7 @@ var bonds = [
         "action": "63"
     }, 
     {
-        "name": "방황하는눈동자", 
+        "name": "주기락:방황하는눈동자", 
         "character": "주기락", 
         "decision": "2457", 
         "creativity": "1877", 
@@ -240,7 +240,7 @@ var bonds = [
         "action": "65"
     }, 
     {
-        "name": "오후의햇살", 
+        "name": "허묵:오후의햇살", 
         "character": "허묵", 
         "decision": "1906", 
         "creativity": "2173", 
@@ -250,7 +250,7 @@ var bonds = [
         "action": "62"
     }, 
     {
-        "name": "너의눈망울", 
+        "name": "백기:너의눈망울", 
         "character": "백기", 
         "decision": "1902", 
         "creativity": "2164", 
@@ -260,7 +260,7 @@ var bonds = [
         "action": "66"
     }, 
     {
-        "name": "귀여운당신", 
+        "name": "이택언:귀여운당신", 
         "character": "이택언", 
         "decision": "1141", 
         "creativity": "2498", 
@@ -270,7 +270,7 @@ var bonds = [
         "action": "65"
     }, 
     {
-        "name": "바깥세상", 
+        "name": "이택언:바깥세상", 
         "character": "이택언", 
         "decision": "1099", 
         "creativity": "2473", 
@@ -280,7 +280,7 @@ var bonds = [
         "action": "63"
     }, 
     {
-        "name": "데려가줄게", 
+        "name": "주기락:데려가줄게", 
         "character": "주기락", 
         "decision": "2739", 
         "creativity": "97", 
@@ -290,7 +290,7 @@ var bonds = [
         "action": "3546"
     }, 
     {
-        "name": "빛나는시절", 
+        "name": "백기:빛나는시절", 
         "character": "백기", 
         "decision": "65", 
         "creativity": "2813", 
@@ -300,7 +300,7 @@ var bonds = [
         "action": "1087"
     }, 
     {
-        "name": "설레는마음", 
+        "name": "허묵:설레는마음", 
         "character": "허묵", 
         "decision": "2801", 
         "creativity": "95", 
@@ -310,7 +310,7 @@ var bonds = [
         "action": "3104"
     }, 
     {
-        "name": "나의영웅", 
+        "name": "백기:나의영웅", 
         "character": "백기", 
         "decision": "2770", 
         "creativity": "97", 
@@ -320,7 +320,7 @@ var bonds = [
         "action": "3190"
     }, 
     {
-        "name": "그리운바닷바람", 
+        "name": "이택언:그리운바닷바람", 
         "character": "이택언", 
         "decision": "2772", 
         "creativity": "94", 
@@ -330,7 +330,7 @@ var bonds = [
         "action": "3203"
     }, 
     {
-        "name": "별밤키스", 
+        "name": "백기:별밤키스", 
         "character": "백기", 
         "decision": "66", 
         "creativity": "2540", 
@@ -340,7 +340,7 @@ var bonds = [
         "action": "2831"
     }, 
     {
-        "name": "유년시절", 
+        "name": "백기:유년시절", 
         "character": "백기", 
         "decision": "62", 
         "creativity": "2605", 
@@ -350,7 +350,7 @@ var bonds = [
         "action": "1900"
     }, 
     {
-        "name": "반짝이는눈빛", 
+        "name": "주기락:반짝이는눈빛", 
         "character": "주기락", 
         "decision": "65", 
         "creativity": "2465", 
@@ -360,7 +360,7 @@ var bonds = [
         "action": "1931"
     }, 
     {
-        "name": "만남", 
+        "name": "허묵:만남", 
         "character": "허묵", 
         "decision": "65", 
         "creativity": "2437", 
@@ -370,7 +370,7 @@ var bonds = [
         "action": "1857"
     }, 
     {
-        "name": "불변의법칙", 
+        "name": "허묵:불변의법칙", 
         "character": "허묵", 
         "decision": "65", 
         "creativity": "2396", 
@@ -390,7 +390,7 @@ var bonds = [
         "action": "4178"
     }, 
     {
-        "name": "소유욕", 
+        "name": "백기:소유욕", 
         "character": "백기", 
         "decision": "1599", 
         "creativity": "94", 
@@ -400,7 +400,7 @@ var bonds = [
         "action": "4145"
     }, 
     {
-        "name": "비밀교환", 
+        "name": "이택언:비밀교환", 
         "character": "이택언", 
         "decision": "63", 
         "creativity": "2105", 
@@ -410,7 +410,7 @@ var bonds = [
         "action": "1934"
     }, 
     {
-        "name": "타오르는빛", 
+        "name": "백기:타오르는빛", 
         "character": "백기", 
         "decision": "66", 
         "creativity": "1966", 
@@ -420,7 +420,7 @@ var bonds = [
         "action": "2228"
     }, 
     {
-        "name": "눈오는날", 
+        "name": "주기락:눈오는날", 
         "character": "주기락", 
         "decision": "62", 
         "creativity": "1941", 
@@ -430,7 +430,7 @@ var bonds = [
         "action": "2378"
     }, 
     {
-        "name": "파티초대", 
+        "name": "이택언:파티초대", 
         "character": "이택언", 
         "decision": "63", 
         "creativity": "1976", 
@@ -440,7 +440,7 @@ var bonds = [
         "action": "2095"
     }, 
     {
-        "name": "어둠속의빛", 
+        "name": "허묵:어둠속의빛", 
         "character": "허묵", 
         "decision": "63", 
         "creativity": "1972", 
@@ -450,7 +450,7 @@ var bonds = [
         "action": "1934"
     }, 
     {
-        "name": "반짝이는마음", 
+        "name": "백기:반짝이는마음", 
         "character": "백기", 
         "decision": "65", 
         "creativity": "1870", 
@@ -460,7 +460,7 @@ var bonds = [
         "action": "2198"
     }, 
     {
-        "name": "주시하다", 
+        "name": "이택언:주시하다", 
         "character": "이택언", 
         "decision": "1586", 
         "creativity": "1795", 
@@ -470,7 +470,7 @@ var bonds = [
         "action": "739"
     }, 
     {
-        "name": "내적갈등", 
+        "name": "이택언:내적갈등", 
         "character": "이택언", 
         "decision": "1618", 
         "creativity": "1774", 
@@ -480,7 +480,7 @@ var bonds = [
         "action": "727"
     }, 
     {
-        "name": "식은죽먹기", 
+        "name": "이택언:식은죽먹기", 
         "character": "이택언", 
         "decision": "1787", 
         "creativity": "1647", 
@@ -490,7 +490,7 @@ var bonds = [
         "action": "685"
     }, 
     {
-        "name": "상상하기", 
+        "name": "주기락:상상하기", 
         "character": "주기락", 
         "decision": "1668", 
         "creativity": "1782", 
@@ -500,7 +500,7 @@ var bonds = [
         "action": "42"
     }, 
     {
-        "name": "꿀잠", 
+        "name": "주기락:꿀잠", 
         "character": "주기락", 
         "decision": "1264", 
         "creativity": "1281", 
@@ -510,7 +510,7 @@ var bonds = [
         "action": "66"
     }, 
     {
-        "name": "너는내꺼", 
+        "name": "백기:너는내꺼", 
         "character": "백기", 
         "decision": "2576", 
         "creativity": "63", 
@@ -520,7 +520,7 @@ var bonds = [
         "action": "2817"
     }, 
     {
-        "name": "정해진운명", 
+        "name": "허묵:정해진운명", 
         "character": "허묵", 
         "decision": "1186", 
         "creativity": "1748", 
@@ -530,7 +530,7 @@ var bonds = [
         "action": "1184"
     }, 
     {
-        "name": "추리", 
+        "name": "백기:추리", 
         "character": "백기", 
         "decision": "1178", 
         "creativity": "1725", 
@@ -540,7 +540,7 @@ var bonds = [
         "action": "1219"
     }, 
     {
-        "name": "계약", 
+        "name": "이택언:계약", 
         "character": "이택언", 
         "decision": "1235", 
         "creativity": "1653", 
@@ -550,7 +550,7 @@ var bonds = [
         "action": "1231"
     }, 
     {
-        "name": "너의뒤에서", 
+        "name": "백기:너의뒤에서", 
         "character": "백기", 
         "decision": "2560", 
         "creativity": "66", 
@@ -560,7 +560,7 @@ var bonds = [
         "action": "2108"
     }, 
     {
-        "name": "진실게임", 
+        "name": "이택언:진실게임", 
         "character": "이택언", 
         "decision": "2523", 
         "creativity": "63", 
@@ -570,7 +570,7 @@ var bonds = [
         "action": "2144"
     }, 
     {
-        "name": "과학의미", 
+        "name": "허묵:과학의미", 
         "character": "허묵", 
         "decision": "668", 
         "creativity": "1854", 
@@ -580,7 +580,7 @@ var bonds = [
         "action": "1599"
     }, 
     {
-        "name": "격전", 
+        "name": "백기:격전", 
         "character": "백기", 
         "decision": "629", 
         "creativity": "672", 
@@ -590,7 +590,7 @@ var bonds = [
         "action": "5206"
     }, 
     {
-        "name": "취조", 
+        "name": "백기:취조", 
         "character": "백기", 
         "decision": "1526", 
         "creativity": "1406", 
@@ -600,7 +600,7 @@ var bonds = [
         "action": "1187"
     }, 
     {
-        "name": "심취", 
+        "name": "주기락:심취", 
         "character": "주기락", 
         "decision": "674", 
         "creativity": "1780", 
@@ -610,7 +610,7 @@ var bonds = [
         "action": "1666"
     }, 
     {
-        "name": "교수의권위", 
+        "name": "허묵:교수의권위", 
         "character": "허묵", 
         "decision": "1645", 
         "creativity": "1249", 
@@ -620,7 +620,7 @@ var bonds = [
         "action": "1226"
     }, 
     {
-        "name": "대략난감", 
+        "name": "이택언:대략난감", 
         "character": "이택언", 
         "decision": "1608", 
         "creativity": "1255", 
@@ -630,7 +630,7 @@ var bonds = [
         "action": "1258"
     }, 
     {
-        "name": "이성과감성", 
+        "name": "허묵:이성과감성", 
         "character": "허묵", 
         "decision": "1557", 
         "creativity": "1252", 
@@ -640,7 +640,7 @@ var bonds = [
         "action": "1312"
     }, 
     {
-        "name": "예리함", 
+        "name": "백기:예리함", 
         "character": "백기", 
         "decision": "1629", 
         "creativity": "1177", 
@@ -650,7 +650,7 @@ var bonds = [
         "action": "1318"
     }, 
     {
-        "name": "냉혈카리스마", 
+        "name": "이택언:냉혈카리스마", 
         "character": "이택언", 
         "decision": "1653", 
         "creativity": "1158", 
@@ -660,7 +660,7 @@ var bonds = [
         "action": "1307"
     }, 
     {
-        "name": "생각하기", 
+        "name": "백기:생각하기", 
         "character": "백기", 
         "decision": "1228", 
         "creativity": "1576", 
@@ -670,7 +670,7 @@ var bonds = [
         "action": "43"
     }, 
     {
-        "name": "마음속그림", 
+        "name": "이택언:마음속그림", 
         "character": "이택언", 
         "decision": "62", 
         "creativity": "1133", 
@@ -680,7 +680,7 @@ var bonds = [
         "action": "2641"
     }, 
     {
-        "name": "귀신의집", 
+        "name": "주기락:귀신의집", 
         "character": "주기락", 
         "decision": "1977", 
         "creativity": "63", 
@@ -690,7 +690,7 @@ var bonds = [
         "action": "2405"
     }, 
     {
-        "name": "\u7f31\u7efb\u4e50\u5149", 
+        "name": "허묵:\u7f31\u7efb\u4e50\u5149", 
         "character": "허묵", 
         "decision": "65", 
         "creativity": "1131", 
@@ -700,7 +700,7 @@ var bonds = [
         "action": "2498"
     }, 
     {
-        "name": "책임질게", 
+        "name": "허묵:책임질게", 
         "character": "허묵", 
         "decision": "1254", 
         "creativity": "1262", 
@@ -710,7 +710,7 @@ var bonds = [
         "action": "1602"
     }, 
     {
-        "name": "부드러운마음", 
+        "name": "허묵:부드러운마음", 
         "character": "허묵", 
         "decision": "1893", 
         "creativity": "65", 
@@ -720,7 +720,7 @@ var bonds = [
         "action": "2533"
     }, 
     {
-        "name": "특별미션", 
+        "name": "이택언:특별미션", 
         "character": "이택언", 
         "decision": "1300", 
         "creativity": "1218", 
@@ -730,7 +730,7 @@ var bonds = [
         "action": "1605"
     }, 
     {
-        "name": "빗속의만남", 
+        "name": "이택언:빗속의만남", 
         "character": "이택언", 
         "decision": "1860", 
         "creativity": "65", 
@@ -740,7 +740,7 @@ var bonds = [
         "action": "2567"
     }, 
     {
-        "name": "따뜻한순간", 
+        "name": "이택언:따뜻한순간", 
         "character": "이택언", 
         "decision": "1963", 
         "creativity": "65", 
@@ -750,7 +750,7 @@ var bonds = [
         "action": "2092"
     }, 
     {
-        "name": "쌓인눈", 
+        "name": "허묵:쌓인눈", 
         "character": "허묵", 
         "decision": "1889", 
         "creativity": "65", 
@@ -760,7 +760,7 @@ var bonds = [
         "action": "2393"
     }, 
     {
-        "name": "힘의원천", 
+        "name": "백기:힘의원천", 
         "character": "백기", 
         "decision": "1915", 
         "creativity": "65", 
@@ -770,7 +770,7 @@ var bonds = [
         "action": "2231"
     }, 
     {
-        "name": "나란히", 
+        "name": "주기락:나란히", 
         "character": "주기락", 
         "decision": "1972", 
         "creativity": "63", 
@@ -780,7 +780,7 @@ var bonds = [
         "action": "2012"
     }, 
     {
-        "name": "젖은어깨", 
+        "name": "허묵:젖은어깨", 
         "character": "허묵", 
         "decision": "1831", 
         "creativity": "65", 
@@ -790,7 +790,7 @@ var bonds = [
         "action": "2543"
     }, 
     {
-        "name": "진심", 
+        "name": "이택언:진심", 
         "character": "이택언", 
         "decision": "732", 
         "creativity": "1724", 
@@ -800,7 +800,7 @@ var bonds = [
         "action": "39"
     }, 
     {
-        "name": "심사숙고", 
+        "name": "이택언:심사숙고", 
         "character": "이택언", 
         "decision": "1689", 
         "creativity": "1173", 
@@ -810,7 +810,7 @@ var bonds = [
         "action": "43"
     }, 
     {
-        "name": "역풍", 
+        "name": "백기:역풍", 
         "character": "백기", 
         "decision": "1315", 
         "creativity": "1152", 
@@ -820,17 +820,17 @@ var bonds = [
         "action": "1657"
     }, 
     {
-        "name": "반딧불", 
+        "name": "허묵:반딧불", 
         "character": "허묵", 
         "decision": "1882", 
         "creativity": "62", 
         "appetency": "2441", 
         "rarity": "SR", 
-        "way": "\u521d\u59cb\u5361", 
+        "way": "초기카드", 
         "action": "2186"
     }, 
     {
-        "name": "완벽한라인", 
+        "name": "주기락:완벽한라인", 
         "character": "주기락", 
         "decision": "1568", 
         "creativity": "1233", 
@@ -840,7 +840,7 @@ var bonds = [
         "action": "42"
     }, 
     {
-        "name": "기쁨의근원", 
+        "name": "주기락:기쁨의근원", 
         "character": "주기락", 
         "decision": "1561", 
         "creativity": "1235", 
@@ -850,7 +850,7 @@ var bonds = [
         "action": "39"
     }, 
     {
-        "name": "찾았다", 
+        "name": "주기락:찾았다", 
         "character": "주기락", 
         "decision": "1831", 
         "creativity": "63", 
@@ -860,7 +860,7 @@ var bonds = [
         "action": "2206"
     }, 
     {
-        "name": "돌아보다", 
+        "name": "허묵:돌아보다", 
         "character": "허묵", 
         "decision": "1458", 
         "creativity": "1241", 
@@ -870,7 +870,7 @@ var bonds = [
         "action": "39"
     }, 
     {
-        "name": "안개가걷히다", 
+        "name": "백기:안개가걷히다", 
         "character": "백기", 
         "decision": "1542", 
         "creativity": "1171", 
@@ -880,17 +880,17 @@ var bonds = [
         "action": "42"
     }, 
     {
-        "name": "일촉즉발", 
+        "name": "백기:일촉즉발", 
         "character": "백기", 
         "decision": "1283", 
         "creativity": "65", 
         "appetency": "1355", 
         "rarity": "SR", 
-        "way": "CBT보상", 
+        "way": "OBT보상", 
         "action": "3867"
     }, 
     {
-        "name": "추억저장", 
+        "name": "허묵:추억저장", 
         "character": "허묵", 
         "decision": "42", 
         "creativity": "1914", 
@@ -900,7 +900,7 @@ var bonds = [
         "action": "681"
     }, 
     {
-        "name": "너의존재", 
+        "name": "주기락:너의존재", 
         "character": "주기락", 
         "decision": "1231", 
         "creativity": "1325", 
@@ -910,7 +910,7 @@ var bonds = [
         "action": "42"
     }, 
     {
-        "name": "너를위한노래", 
+        "name": "주기락:너를위한노래", 
         "character": "주기락", 
         "decision": "39", 
         "creativity": "1735", 
@@ -920,7 +920,7 @@ var bonds = [
         "action": "1715"
     }, 
     {
-        "name": "음미", 
+        "name": "이택언:음미", 
         "character": "이택언", 
         "decision": "694", 
         "creativity": "1596", 
@@ -930,7 +930,7 @@ var bonds = [
         "action": "42"
     }, 
     {
-        "name": "기록", 
+        "name": "허묵:기록", 
         "character": "허묵", 
         "decision": "42", 
         "creativity": "1863", 
@@ -940,7 +940,7 @@ var bonds = [
         "action": "716"
     }, 
     {
-        "name": "\u661f\u706f\u4e4b\u4e0b", 
+        "name": "이택언:\u661f\u706f\u4e4b\u4e0b", 
         "character": "이택언", 
         "decision": "1303", 
         "creativity": "1232", 
@@ -950,7 +950,7 @@ var bonds = [
         "action": "40"
     }, 
     {
-        "name": "우연한만남", 
+        "name": "주기락:우연한만남", 
         "character": "주기락", 
         "decision": "42", 
         "creativity": "1708", 
@@ -960,7 +960,7 @@ var bonds = [
         "action": "1687"
     }, 
     {
-        "name": "허둥대는마음", 
+        "name": "주기락:허둥대는마음", 
         "character": "주기락", 
         "decision": "39", 
         "creativity": "1847", 
@@ -970,7 +970,7 @@ var bonds = [
         "action": "709"
     }, 
     {
-        "name": "심란한마음", 
+        "name": "백기:심란한마음", 
         "character": "백기", 
         "decision": "1863", 
         "creativity": "662", 
@@ -980,7 +980,7 @@ var bonds = [
         "action": "1592"
     }, 
     {
-        "name": "쉿", 
+        "name": "이택언:쉿", 
         "character": "이택언", 
         "decision": "1850", 
         "creativity": "664", 
@@ -990,7 +990,7 @@ var bonds = [
         "action": "1606"
     }, 
     {
-        "name": "시간조종자", 
+        "name": "이택언:시간조종자", 
         "character": "이택언", 
         "decision": "1776", 
         "creativity": "693", 
@@ -1000,7 +1000,7 @@ var bonds = [
         "action": "1650"
     }, 
     {
-        "name": "준비완료", 
+        "name": "이택언:준비완료", 
         "character": "이택언", 
         "decision": "1677", 
         "creativity": "742", 
@@ -1010,7 +1010,7 @@ var bonds = [
         "action": "1702"
     }, 
     {
-        "name": "고민", 
+        "name": "백기:고민", 
         "character": "백기", 
         "decision": "1312", 
         "creativity": "1132", 
@@ -1020,7 +1020,7 @@ var bonds = [
         "action": "39"
     }, 
     {
-        "name": "조사", 
+        "name": "백기:조사", 
         "character": "백기", 
         "decision": "1531", 
         "creativity": "738", 
@@ -1030,7 +1030,7 @@ var bonds = [
         "action": "1854"
     }, 
     {
-        "name": "특수제작", 
+        "name": "주기락:특수제작", 
         "character": "주기락", 
         "decision": "40", 
         "creativity": "1738", 
@@ -1040,7 +1040,7 @@ var bonds = [
         "action": "717"
     }, 
     {
-        "name": "머뭇거림", 
+        "name": "허묵:머뭇거림", 
         "character": "허묵", 
         "decision": "1597", 
         "creativity": "687", 
@@ -1050,7 +1050,7 @@ var bonds = [
         "action": "1838"
     }, 
     {
-        "name": "치유사", 
+        "name": "허묵:치유사", 
         "character": "허묵", 
         "decision": "40", 
         "creativity": "1726", 
@@ -1060,7 +1060,7 @@ var bonds = [
         "action": "732"
     }, 
     {
-        "name": "추억잠금해제", 
+        "name": "백기:추억잠금해제", 
         "character": "백기", 
         "decision": "39", 
         "creativity": "1587", 
@@ -1070,7 +1070,7 @@ var bonds = [
         "action": "1399"
     }, 
     {
-        "name": "맑은날", 
+        "name": "허묵:맑은날", 
         "character": "허묵", 
         "decision": "43", 
         "creativity": "1608", 
@@ -1080,7 +1080,7 @@ var bonds = [
         "action": "1164"
     }, 
     {
-        "name": "찬란한순간", 
+        "name": "주기락:찬란한순간", 
         "character": "주기락", 
         "decision": "39", 
         "creativity": "1609", 
@@ -1090,7 +1090,7 @@ var bonds = [
         "action": "1171"
     }, 
     {
-        "name": "\u4ed6\u7684\u6e29\u5ea6", 
+        "name": "이택언:\u4ed6\u7684\u6e29\u5ea6", 
         "character": "이택언", 
         "decision": "1152", 
         "creativity": "65", 
@@ -1100,7 +1100,7 @@ var bonds = [
         "action": "2639"
     }, 
     {
-        "name": "좋아하는맛", 
+        "name": "이택언:좋아하는맛", 
         "character": "이택언", 
         "decision": "40", 
         "creativity": "1502", 
@@ -1120,7 +1120,7 @@ var bonds = [
         "action": "39"
     }, 
     {
-        "name": "백발백중", 
+        "name": "백기:백발백중", 
         "character": "백기", 
         "decision": "862", 
         "creativity": "859", 
@@ -1130,7 +1130,7 @@ var bonds = [
         "action": "2398"
     }, 
     {
-        "name": "조련", 
+        "name": "이택언:조련", 
         "character": "이택언", 
         "decision": "868", 
         "creativity": "826", 
@@ -1140,7 +1140,7 @@ var bonds = [
         "action": "2428"
     }, 
     {
-        "name": "손줘봐요", 
+        "name": "허묵:손줘봐요", 
         "character": "허묵", 
         "decision": "39", 
         "creativity": "1457", 
@@ -1150,7 +1150,7 @@ var bonds = [
         "action": "1233"
     }, 
     {
-        "name": "몸풀기", 
+        "name": "백기:몸풀기", 
         "character": "백기", 
         "decision": "800", 
         "creativity": "817", 
@@ -1160,7 +1160,7 @@ var bonds = [
         "action": "2501"
     }, 
     {
-        "name": "\u4f60\u7684\u6837\u5b50", 
+        "name": "주기락:\u4f60\u7684\u6837\u5b50", 
         "character": "주기락", 
         "decision": "40", 
         "creativity": "1307", 
@@ -1170,7 +1170,7 @@ var bonds = [
         "action": "1212"
     }, 
     {
-        "name": "겨울의불꽃", 
+        "name": "백기:겨울의불꽃", 
         "character": "백기", 
         "decision": "42", 
         "creativity": "1265", 
@@ -1180,7 +1180,7 @@ var bonds = [
         "action": "1258"
     }, 
     {
-        "name": "억누를수없는", 
+        "name": "이택언:억누를수없는", 
         "character": "이택언", 
         "decision": "43", 
         "creativity": "1239", 
@@ -1190,7 +1190,7 @@ var bonds = [
         "action": "1381"
     }, 
     {
-        "name": "여가", 
+        "name": "이택언:여가", 
         "character": "이택언", 
         "decision": "42", 
         "creativity": "1219", 
@@ -1200,7 +1200,7 @@ var bonds = [
         "action": "1480"
     }, 
     {
-        "name": "눈오는밤", 
+        "name": "허묵:눈오는밤", 
         "character": "허묵", 
         "decision": "42", 
         "creativity": "1226", 
@@ -1210,7 +1210,7 @@ var bonds = [
         "action": "1303"
     }, 
     {
-        "name": "달콤한관계", 
+        "name": "이택언:달콤한관계", 
         "character": "이택언", 
         "decision": "42", 
         "creativity": "1216", 
@@ -1220,7 +1220,7 @@ var bonds = [
         "action": "1284"
     }, 
     {
-        "name": "자취감추기", 
+        "name": "주기락:자취감추기", 
         "character": "주기락", 
         "decision": "43", 
         "creativity": "1177", 
@@ -1230,7 +1230,7 @@ var bonds = [
         "action": "1494"
     }, 
     {
-        "name": "자유로운마음", 
+        "name": "백기:자유로운마음", 
         "character": "백기", 
         "decision": "1871", 
         "creativity": "42", 
@@ -1240,7 +1240,7 @@ var bonds = [
         "action": "1570"
     }, 
     {
-        "name": "딜레마", 
+        "name": "백기:딜레마", 
         "character": "백기", 
         "decision": "1557", 
         "creativity": "40", 
@@ -1250,7 +1250,7 @@ var bonds = [
         "action": "1864"
     }, 
     {
-        "name": "답장기다리기", 
+        "name": "주기락:답장기다리기", 
         "character": "주기락", 
         "decision": "40", 
         "creativity": "798", 
@@ -1260,7 +1260,7 @@ var bonds = [
         "action": "2475"
     }, 
     {
-        "name": "약챙겨먹기", 
+        "name": "허묵:약챙겨먹기", 
         "character": "허묵", 
         "decision": "1664", 
         "creativity": "42", 
@@ -1270,7 +1270,7 @@ var bonds = [
         "action": "1138"
     }, 
     {
-        "name": "깨끗이씻기", 
+        "name": "백기:깨끗이씻기", 
         "character": "백기", 
         "decision": "1613", 
         "creativity": "40", 
@@ -1280,7 +1280,7 @@ var bonds = [
         "action": "1320"
     }, 
     {
-        "name": "움켜쥔주먹", 
+        "name": "백기:움켜쥔주먹", 
         "character": "백기", 
         "decision": "403", 
         "creativity": "429", 
@@ -1290,7 +1290,7 @@ var bonds = [
         "action": "3290"
     }, 
     {
-        "name": "뜨거운여름", 
+        "name": "주기락:뜨거운여름", 
         "character": "주기락", 
         "decision": "1571", 
         "creativity": "43", 
@@ -1300,7 +1300,7 @@ var bonds = [
         "action": "1249"
     }, 
     {
-        "name": "막무가내초대", 
+        "name": "백기:막무가내초대", 
         "character": "백기", 
         "decision": "1544", 
         "creativity": "40", 
@@ -1310,7 +1310,7 @@ var bonds = [
         "action": "1177"
     }, 
     {
-        "name": "짓궂은장난", 
+        "name": "허묵:짓궂은장난", 
         "character": "허묵", 
         "decision": "1510", 
         "creativity": "40", 
@@ -1320,7 +1320,7 @@ var bonds = [
         "action": "1238"
     }, 
     {
-        "name": "청명한밤", 
+        "name": "주기락:청명한밤", 
         "character": "주기락", 
         "decision": "1490", 
         "creativity": "40", 
@@ -1330,7 +1330,7 @@ var bonds = [
         "action": "1264"
     }, 
     {
-        "name": "긍정파워", 
+        "name": "주기락:긍정파워", 
         "character": "주기락", 
         "decision": "1403", 
         "creativity": "39", 
@@ -1340,7 +1340,7 @@ var bonds = [
         "action": "1447"
     }, 
     {
-        "name": "어려운선택", 
+        "name": "허묵:어려운선택", 
         "character": "허묵", 
         "decision": "1380", 
         "creativity": "42", 
@@ -1350,7 +1350,7 @@ var bonds = [
         "action": "1489"
     }, 
     {
-        "name": "단련", 
+        "name": "백기:단련", 
         "character": "백기", 
         "decision": "1344", 
         "creativity": "42", 
@@ -1360,7 +1360,7 @@ var bonds = [
         "action": "1505"
     }, 
     {
-        "name": "기억하는맛", 
+        "name": "허묵:기억하는맛", 
         "character": "허묵", 
         "decision": "39", 
         "creativity": "864", 
@@ -1370,7 +1370,7 @@ var bonds = [
         "action": "791"
     }, 
     {
-        "name": "잠들다", 
+        "name": "주기락:잠들다", 
         "character": "주기락", 
         "decision": "1273", 
         "creativity": "40", 
@@ -1380,7 +1380,7 @@ var bonds = [
         "action": "1587"
     }, 
     {
-        "name": "둘만의데이트", 
+        "name": "허묵:둘만의데이트", 
         "character": "허묵", 
         "decision": "1225", 
         "creativity": "42", 
@@ -1390,7 +1390,7 @@ var bonds = [
         "action": "1577"
     }, 
     {
-        "name": "독심술", 
+        "name": "허묵:독심술", 
         "character": "허묵", 
         "decision": "1262", 
         "creativity": "40", 
@@ -1400,7 +1400,7 @@ var bonds = [
         "action": "1413"
     }, 
     {
-        "name": "내눈속의너", 
+        "name": "백기:내눈속의너", 
         "character": "백기", 
         "decision": "1248", 
         "creativity": "42", 
@@ -1410,7 +1410,7 @@ var bonds = [
         "action": "1349"
     }, 
     {
-        "name": "달콤한마음", 
+        "name": "주기락:달콤한마음", 
         "character": "주기락", 
         "decision": "40", 
         "creativity": "797", 
@@ -1420,7 +1420,7 @@ var bonds = [
         "action": "841"
     }, 
     {
-        "name": "약속", 
+        "name": "주기락:약속", 
         "character": "주기락", 
         "decision": "1249", 
         "creativity": "42", 
@@ -1430,7 +1430,7 @@ var bonds = [
         "action": "1248"
     }, 
     {
-        "name": "조용한기다림", 
+        "name": "허묵:조용한기다림", 
         "character": "허묵", 
         "decision": "1177", 
         "creativity": "39", 
@@ -1440,7 +1440,7 @@ var bonds = [
         "action": "1510"
     }, 
     {
-        "name": "변장", 
+        "name": "주기락:변장", 
         "character": "주기락", 
         "decision": "1165", 
         "creativity": "43", 
@@ -1450,7 +1450,7 @@ var bonds = [
         "action": "1518"
     }, 
     {
-        "name": "런치타임", 
+        "name": "이택언:런치타임", 
         "character": "이택언", 
         "decision": "1225", 
         "creativity": "40", 
@@ -1460,7 +1460,7 @@ var bonds = [
         "action": "1184"
     }, 
     {
-        "name": "경이로운먹방", 
+        "name": "백기:경이로운먹방", 
         "character": "백기", 
         "decision": "1162", 
         "creativity": "39", 
@@ -1470,7 +1470,7 @@ var bonds = [
         "action": "1387"
     }, 
     {
-        "name": "악몽쫓기", 
+        "name": "허묵:악몽쫓기", 
         "character": "허묵", 
         "decision": "1155", 
         "creativity": "43", 
@@ -1480,7 +1480,7 @@ var bonds = [
         "action": "1289"
     }, 
     {
-        "name": "무장해제", 
+        "name": "이택언:무장해제", 
         "character": "이택언", 
         "decision": "1171", 
         "creativity": "43", 
@@ -1490,7 +1490,7 @@ var bonds = [
         "action": "1207"
     }, 
     {
-        "name": "쿨가이", 
+        "name": "백기:쿨가이", 
         "character": "백기", 
         "decision": "1132", 
         "creativity": "42", 
@@ -1500,7 +1500,7 @@ var bonds = [
         "action": "1357"
     }, 
     {
-        "name": "냉정과열정사이", 
+        "name": "백기:냉정과열정사이", 
         "character": "백기", 
         "decision": "854", 
         "creativity": "42", 
@@ -1510,7 +1510,7 @@ var bonds = [
         "action": "2427"
     }, 
     {
-        "name": "내곁의너", 
+        "name": "이택언:내곁의너", 
         "character": "이택언", 
         "decision": "788", 
         "creativity": "43", 
@@ -1520,7 +1520,7 @@ var bonds = [
         "action": "2521"
     }, 
     {
-        "name": "맞춤예복", 
+        "name": "주기락:맞춤예복", 
         "character": "주기락", 
         "decision": "716", 
         "creativity": "42", 
@@ -1530,7 +1530,7 @@ var bonds = [
         "action": "1687"
     }, 
     {
-        "name": "우유먹기벌칙", 
+        "name": "주기락:우유먹기벌칙", 
         "character": "주기락", 
         "decision": "864", 
         "creativity": "39", 
@@ -1540,7 +1540,7 @@ var bonds = [
         "action": "842"
     }, 
     {
-        "name": "잠꾸러기", 
+        "name": "주기락:잠꾸러기", 
         "character": "주기락", 
         "decision": "390", 
         "creativity": "404", 
@@ -1550,7 +1550,7 @@ var bonds = [
         "action": "40"
     }, 
     {
-        "name": "\u9f7f\u95f4\u6e29\u67d4", 
+        "name": "허묵:\u9f7f\u95f4\u6e29\u67d4", 
         "character": "허묵", 
         "decision": "95", 
         "creativity": "1616", 
@@ -1560,7 +1560,7 @@ var bonds = [
         "action": "4112"
     }, 
     {
-        "name": "\u6b64\u751f\u7737\u604b", 
+        "name": "백기:\u6b64\u751f\u7737\u604b", 
         "character": "백기", 
         "decision": "1597", 
         "creativity": "95", 
@@ -1570,7 +1570,7 @@ var bonds = [
         "action": "4220"
     }, 
     {
-        "name": "\u4f9d\u504e", 
+        "name": "이택언:\u4f9d\u504e", 
         "character": "이택언", 
         "decision": "2878", 
         "creativity": "65", 
@@ -1580,7 +1580,7 @@ var bonds = [
         "action": "1133"
     }, 
     {
-        "name": "\u6307\u5c16\u5fc3\u8df3", 
+        "name": "주기락:\u6307\u5c16\u5fc3\u8df3", 
         "character": "주기락", 
         "decision": "1117", 
         "creativity": "2842", 
@@ -1590,7 +1590,7 @@ var bonds = [
         "action": "65"
     }, 
     {
-        "name": "\u53ea\u5c5e\u4e8e\u4f60", 
+        "name": "백기:\u53ea\u5c5e\u4e8e\u4f60", 
         "character": "백기", 
         "decision": "2547", 
         "creativity": "63", 
@@ -1600,7 +1600,7 @@ var bonds = [
         "action": "2810"
     }, 
     {
-        "name": "\u751c\u871c\u5982\u4f60", 
+        "name": "백기:\u751c\u871c\u5982\u4f60", 
         "character": "백기", 
         "decision": "668", 
         "creativity": "1661", 
@@ -1610,7 +1610,7 @@ var bonds = [
         "action": "39"
     }, 
     {
-        "name": "\u7ea2\u5305", 
+        "name": "이택언:\u7ea2\u5305", 
         "character": "이택언", 
         "decision": "1384", 
         "creativity": "40", 
@@ -1620,7 +1620,7 @@ var bonds = [
         "action": "1216"
     }, 
     {
-        "name": "\u6e29\u67d4\u706f\u706b", 
+        "name": "이택언:\u6e29\u67d4\u706f\u706b", 
         "character": "이택언", 
         "decision": "63", 
         "creativity": "2892", 
@@ -1630,7 +1630,7 @@ var bonds = [
         "action": "2491"
     }, 
     {
-        "name": "\u65b0\u5e74\u5927\u5409", 
+        "name": "주기락:\u65b0\u5e74\u5927\u5409", 
         "character": "주기락", 
         "decision": "43", 
         "creativity": "1171", 
