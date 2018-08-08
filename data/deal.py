@@ -8,7 +8,7 @@ data["normal"] = []
 data["hard"] = []
 data["instance"] = []
 data["arena"] = []
-person = {0: "李泽言", 1: "许墨", 2: "白起", 3: "周棋洛"}
+person = {0: "이택언", 1: "허묵", 2: "백기", 3: "주기락"}
 lines = open("weight.txt").readlines()
 for line in lines:
     tmp = line.replace('\n', '').split(' ')
@@ -29,8 +29,8 @@ for line in lines:
     item["prof"] = tmpdict[5]
 
 
-    if tmpdict[0].find('拍摄副本') >= 0:
-        item["name"] = tmpdict[0].replace('拍摄副本', '')
+    if tmpdict[0].find('촬영장') >= 0:
+        item["name"] = tmpdict[0].replace('촬영장', '')
         item["list"] = {}
         for i in range(4):
             a = {}
@@ -45,8 +45,8 @@ for line in lines:
             item["list"][person[i]] = a
         data["instance"].append(item)
 
-    if tmpdict[0].find('普通') >= 0:
-        item["name"] = tmpdict[0].replace('普通', '')
+    if tmpdict[0].find('정규') >= 0:
+        item["name"] = tmpdict[0].replace('정규', '')
         item["goods"] = tmpdict[6]
         item["requests"] = []
         for i in range(7, len(tmpdict), 2):
@@ -57,8 +57,8 @@ for line in lines:
                 item["requests"].append(request)
         data["normal"].append(item)
 
-    if tmpdict[0].find('精英') >= 0:
-        item["name"] = tmpdict[0].replace('精英', '')
+    if tmpdict[0].find('특집') >= 0:
+        item["name"] = tmpdict[0].replace('특집', '')
         item["goods"] = tmpdict[6]
         item["requests"] = []
         for i in range(7, len(tmpdict), 2):
