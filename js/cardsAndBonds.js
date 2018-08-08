@@ -48,13 +48,13 @@ function importCard() {
     var data = $('#import-text').val();
     try {
         mycards = JSON.parse(data);
-        alert("导入成功!");
+        alert("가져오기 성공했습니다!");
         $('#import-text').val('');
         setCookie('cardData', data, 100);
         showCards();
     }
     catch(err) {
-        alert("请输入符合JSON格式的数据!");
+        alert("데이터를 JSON 포맷으로 입력해주세요.");
     }
 }
 
@@ -86,7 +86,7 @@ function addCard() {
     var action = parseInt('0'+$('#card-action').val());
     var evol_card = new Object();
     if (name == "" || name == null) {
-        alert("请输入完整的羁绊信息!");
+        alert("운명의 이름을 입력해주세요!");
         return;
     }
     evol_card["name"] = name;
@@ -98,7 +98,7 @@ function addCard() {
     evol_card["action"] = action;
     evol_card["way"] = "自定义";
     evol_card["id"] = (new Date()).valueOf();
-    alert("羁绊: "+name+" 添加成功!");
+    alert("운명: "+name+" 추가 성공!");
     mycards["user-defined"].push(evol_card);
     setCookie('cardData', JSON.stringify(mycards), 100);
     showCards();

@@ -12,7 +12,7 @@ function showCards() {
     for (var i in card_list) {
         if (cnt < max_cards) {
             if (cardFilter(card_list[i])) {
-                str += "<tr id=\""+card_list[i]["id"]+"\"><td>"+card_list[i]["name"]+"</td><td>"+card_list[i]["rarity"]+"</td><td>"+card_list[i]["character"]+"</td><td>"+card_list[i]["decision"]+"/"+card_list[i]["creativity"]+"/"+card_list[i]["appetency"]+"/"+card_list[i]["action"]+"</td><td><a href=\"javascript:void(0);\" onclick=\"deleteCard('"+card_list[i]["id"]+"')\">删除</a></td></tr>";
+                str += "<tr id=\""+card_list[i]["id"]+"\"><td>"+card_list[i]["name"]+"</td><td>"+card_list[i]["rarity"]+"</td><td>"+card_list[i]["character"]+"</td><td>"+card_list[i]["decision"]+"/"+card_list[i]["creativity"]+"/"+card_list[i]["appetency"]+"/"+card_list[i]["action"]+"</td><td><a href=\"javascript:void(0);\" onclick=\"deleteCard('"+card_list[i]["id"]+"')\">삭제</a></td></tr>";
                 cnt ++;
             }
         }
@@ -24,7 +24,7 @@ function showCards() {
     for (var i in bonds) {
         if (cnt < max_cards) {
             if (isInArray(mycards["pre-defined"], bonds[i]["name"]) && cardFilter(bonds[i])) {
-                str += "<tr id=\""+bonds[i]["name"]+"\"><td>"+bonds[i]["name"]+"</td><td>"+bonds[i]["rarity"]+"</td><td>"+bonds[i]["character"]+"</td><td></td><td><a href=\"javascript:void(0);\" onclick=\"deleteBond('"+bonds[i]["name"]+"')\">删除</a></td></tr>";
+                str += "<tr id=\""+bonds[i]["name"]+"\"><td>"+bonds[i]["name"]+"</td><td>"+bonds[i]["rarity"]+"</td><td>"+bonds[i]["character"]+"</td><td></td><td><a href=\"javascript:void(0);\" onclick=\"deleteBond('"+bonds[i]["name"]+"')\">삭제</a></td></tr>";
                 cnt ++;
             }
         }

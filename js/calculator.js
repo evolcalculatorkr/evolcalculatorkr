@@ -1,5 +1,5 @@
 var w_decision = 0, w_creativity = 0, w_appetency = 0, w_action = 0;
-var tmp_character = "李泽言";
+var tmp_character = "이택언";
 var star_num = 3;
 // var tmp_category = 0, category_dict = {"normal": 1, "hard": 2, "instance": 3, "arena": 4};
 var tmp_category = "normal";
@@ -11,9 +11,9 @@ function loadName(category) {
     var str = "";
     var prename = "";
     if (category == 'instance') 
-        prename = "副本";
+        prename = "촬영장";
     if (category == 'hard')
-        prename = "精英";
+        prename = "특집";
     for (var i in weights[category]) {
         str += "<option value =\""+weights[category][i]["name"]+"\">"+prename+weights[category][i]["name"]+"</option>";
     }
@@ -22,7 +22,7 @@ function loadName(category) {
     $('#div-star').remove();
     if (category == 'arena') {
         $('#div-character').attr("colspan", 1);
-        $('#div-character').after("<td id=\"div-star\"><select id=\"stage-star\"><option value=\"3\">3星</option><option value=\"4\">4星</option><option value=\"5\">5星</option></select></td>");
+        $('#div-character').after("<td id=\"div-star\"><select id=\"stage-star\"><option value=\"3\">3성</option><option value=\"4\">4성</option><option value=\"5\">5성</option></select></td>");
     }
     else {
         $('#div-character').attr("colspan", 2);
@@ -30,12 +30,12 @@ function loadName(category) {
 
     $('#stage-character').empty();
     if (category == 'instance' || category == 'arena') {
-        $('#stage-character').append("<option value=\"许墨\">许墨</option><option value=\"白起\">白起</option><option value=\"李泽言\">李泽言</option><option value=\"周棋洛\">周棋洛</option>");
-        tmp_character = "许墨";
+        $('#stage-character').append("<option value=\"허묵\">허묵</option><option value=\"백기\">백기</option><option value=\"이택언\">이택언</option><option value=\"주기락\">주기락</option>");
+        tmp_character = "허묵";
     }
     else {
-        $('#stage-character').append("<option value=\"许墨\">无</option>");
-        tmp_character = "许墨";
+        $('#stage-character').append("<option value=\"허묵\">无</option>");
+        tmp_character = "허묵";
     }
 
 }
