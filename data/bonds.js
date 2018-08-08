@@ -1110,7 +1110,7 @@ var bonds = [
         "action": "1421"
     }, 
     {
-        "name": "머뭇거림2", 
+        "name": "백기:머뭇거림", 
         "character": "백기", 
         "decision": "1725", 
         "creativity": "723", 
