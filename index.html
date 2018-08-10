@@ -69,11 +69,11 @@
                 <h3>러브앤프로듀서계산기 v1.0</h3><br/>
                 <p>
                     <!-- 傻瓜版羁绊选择和竞技场算分功能持续更新中……<br/><br/> -->
-                    <h4>사용방법($使用说明)</h4>
-                    1.우선<a href="#point4">운명추가</a>또는 <a href="#point5">운명편집</a>, <a href="#point6">내보내기/가져오기</a>등으로 가지고 계신 운명을 등록하세요. 운명을 등록하고 난 다음 <a href="#point2">점수계산</a>을 하실 수 있습니다.($1.请先添加羁绊，或者输入/导入拥有的羁绊信息，然后再开始计算)<br/>
-                    2.<a href="#point4">"운명추가"</a>에 나오는 운명정보는 모든 진화/승급을 끝낸 정보입니다. 만약 아직 모든 진화/승급을 완료하지 않았다면 <a href="#point5">운명편집</a>에서 가지고 계신 운명정보를 수정해주세요.($2."添加羁绊"中的羁绊数据为满星满级的羁绊数据，未达到满星满级请自定义输入羁绊信息)<br/>
-                    3.모든 카드 정보를 브라우저 쿠키에 저장합니다. 브라우저 쿠키를 삭제하면 입력한 카드 정보가 사라집니다. 쿠키를 삭제하기 전에 <a href="#point6">"내보내기"</a>를 이용해서 카드 정보를 저장해주세요.($3.为保证使用体验，清理浏览器cookie前请保存羁绊记录(点击最下方"导出羁绊记录"))<br/>
-                    <h4>데이터 출처($数据来源)</h4>
+                    <h4>사용방법</h4>
+                    1.우선<a href="#point4">운명추가</a>또는 <a href="#point5">운명편집</a>, <a href="#point6">내보내기/가져오기</a>등으로 가지고 계신 운명을 등록하세요. 운명을 등록하고 난 다음 <a href="#point2">점수계산</a>을 하실 수 있습니다.<br/>
+                    2.<a href="#point4">"운명추가"</a>에 나오는 운명정보는 모든 진화/승급을 끝낸 정보입니다. 만약 아직 모든 진화/승급을 완료하지 않았다면 <a href="#point5">운명편집</a>에서 가지고 계신 운명정보를 수정해주세요.<br/>
+                    3.모든 카드 정보를 브라우저 쿠키에 저장합니다. 브라우저 쿠키를 삭제하면 입력한 카드 정보가 사라집니다. 쿠키를 삭제하기 전에 <a href="#point6">"내보내기"</a>를 이용해서 카드 정보를 저장해주세요.<br/>
+                    <h4>데이터 출처</h4>
                     가중 데이터 출처 <a href="https://weibo.com/unnamedgroup">@恋与制作人未命名攻略组</a><br/>
 <!--                     图片来源 <a href="http://evol.papegames.cn/index.html">恋与制作人官网</a><br/> -->
                     계산기 제작 @达尔娜 @清澄<br/>계산기 한국어지원 제작 @라임향기 @Leah <a href="https://cafe.naver.com/evol4" target="_blank">러브앤프로듀서 팬카페</a>
@@ -83,23 +83,23 @@
             <br/>
             <div id="point2"></div>
             <div class="mycard" id="section2">
-                <h4>스테이지($得分计算)</h4>
+                <h4>스테이지</h4>
                 <table class="table table-bordered table-hover">
                     <thead>
                         <tr>
-                            <th>레벨 분류($关卡类别)</th>
-                            <th>레벨 이름($关卡名)</th>
-                            <th colspan="2">추가 조건($附加要求)</th>
+                            <th>레벨 분류</th>
+                            <th>레벨 이름</th>
+                            <th colspan="2">추가 조건</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <td>
                                 <select id="stage-category">
-                                    <option value ="normal">정규($普通)</option>
-                                    <option value ="hard">특집($精英)</option>
-                                    <option value="instance">촬영장($拍摄副本)</option>
-                                    <option value="arena">시청률쟁탈전($票房争夺战)</option>
+                                    <option value ="normal">정규</option>
+                                    <option value ="hard">특집</option>
+                                    <option value="instance">촬영장</option>
+                                    <option value="arena">시청률쟁탈전</option>
                                 </select>
                             </td>
                             <td>
@@ -117,17 +117,17 @@
                         </tr>
                     </tbody>
                 </table>
-                <button class="btn btn-default" id="btn-start">간단 공략($一键攻略)</button>
+                <button class="btn btn-default" id="btn-start">간단 공략</button>
                 <br/><br/>
                 <table class="table table-bordered table-hover">
                     <thead>
                         <tr>
-                            <th>스테이지 클리어 조건($关卡掉落)</th>
+                            <th>스테이지 클리어 조건</th>
                             <td id="stage-goods"></td>
                         </tr>
                         <tr>
-                            <th>특별 조건($特殊要求)</th>
-                            <th>전문가 추천($专家推荐)</th>
+                            <th>특별 조건</th>
+                            <th>전문가 추천</th>
                         </tr>
                     </thead>
                     <tbody id="div-request">
@@ -135,21 +135,21 @@
                 <table class="table table-bordered table-hover">
                     <thead>
                         <tr>
-                            <th colspan="5">추천 운명($推荐羁绊)&nbsp;&nbsp;
+                            <th colspan="5">추천 운명&nbsp;&nbsp;
                                 <select id="num-cards">
-                                    <option value ="-1">모두 보여주기($显示全部)</option>
-                                    <option value ="3">Top 3($前 3 张)</option>
-                                    <option value="5">Top 5($前 5 张)</option>
-                                    <option value="10">Top 10($前 10 张)</option>
+                                    <option value ="-1">모두 보여주기</option>
+                                    <option value ="3">Top 3</option>
+                                    <option value="5">Top 5</option>
+                                    <option value="10">Top 10</option>
                                 </select>
                             </th>
                         </tr>
                         <tr>
-                            <th>운명 이름($羁绊名)</th>
-                            <th>희귀도($稀有度)</th>
-                            <th>인물($人物)</th>
-                            <th>획득경로($获取途径)</th>
-                            <th>점수($得分)</th>
+                            <th>운명 이름</th>
+                            <th>희귀도</th>
+                            <th>인물</th>
+                            <th>획득경로</th>
+                            <th>점수</th>
                         </tr>
                     </thead>
                     <tbody id="recommendation">
@@ -159,13 +159,13 @@
             <br/>
             <div id="point3"></div>
             <div class="mycard" id="section3">
-                <h4>나의 운명 정보($我的羁绊信息)</h4>
-                <p><a href="javascript:void(0);" onclick="deleteAll()">전부삭제($删除全部)</a></p>
+                <h4>나의 운명 정보</h4>
+                <p><a href="javascript:void(0);" onclick="deleteAll()">전부삭제</a></p>
                 <table class="table table-bordered table-hover">
                     <thead>
                         <tr>
-                            <th>운명 이름($羁绊名)</th>
-                            <th>희귀도($稀有度) &nbsp;&nbsp;
+                            <th>운명 이름</th>
+                            <th>희귀도 &nbsp;&nbsp;
                                 <select id="mycard-rarity">
                                     <option value ="all">전부</option>
                                     <option value ="SSR">SSR</option>
@@ -173,7 +173,7 @@
                                     <option value="R">R</option>
                                 </select>
                             </th>
-                            <th>인물($人物) &nbsp;&nbsp;
+                            <th>인물 &nbsp;&nbsp;
                                 <select id="mycard-character">
                                     <option value ="all">전부</option>
                                     <option value ="이택언">이택언</option>
@@ -182,8 +182,8 @@
                                     <option value="백기">백기</option>
                                 </select>
                             </th>
-                            <th>4가지속성($四维)</th>
-                            <th>메뉴($操作)</th>
+                            <th>4가지속성</th>
+                            <th>메뉴</th>
                         </tr>
                     </thead>
                     <tbody id="card-table">
@@ -194,13 +194,13 @@
             <div id="point4"></div>
             <div class="mycard" id="section4">
                 <h4>운명추가</h4>
-                <p>(다음 속성값 숫자는 최종 진화/승급된 숫자 기준입니다. 아직 진화/승급을 다 완료하지 못했다면 <a href="#point5">운명편집</a>에서 수정해주세요.)($以下属性均为满星满级，未满星满级请移步自定义羁绊)</p>
-                <p><a href="javascript:void(0);" onclick="addAll()">모두 추가($添加全部)</a></p>
+                <p>(다음 속성값 숫자는 최종 진화/승급된 숫자 기준입니다. 아직 진화/승급을 다 완료하지 못했다면 <a href="#point5">운명편집</a>에서 수정해주세요.)</p>
+                <p><a href="javascript:void(0);" onclick="addAll()">모두 추가</a></p>
                 <table class="table table-bordered table-hover">
                     <thead>
                         <tr>
-                            <th>운명 이름($羁绊名)</th>
-                            <th>희귀도($稀有度) &nbsp;&nbsp;
+                            <th>운명 이름</th>
+                            <th>희귀도 &nbsp;&nbsp;
                                 <select id="select-rarity">
                                     <option value ="all">전부</option>
                                     <option value ="SSR">SSR</option>
@@ -208,7 +208,7 @@
                                     <option value="R">R</option>
                                 </select>
                             </th>
-                            <th>인물($人物) &nbsp;&nbsp;
+                            <th>인물 &nbsp;&nbsp;
                                 <select id="select-character">
                                     <option value ="all">전부</option>
                                     <option value ="이택언">이택언</option>
@@ -217,8 +217,8 @@
                                     <option value="백기">백기</option>
                                 </select>
                             </th>
-                            <th>획득경로($获取途径)</th>
-                            <th>메뉴($操作)</button>
+                            <th>획득경로</th>
+                            <th>메뉴</button>
                             </th>
                         </tr>
                     </thead>
@@ -229,14 +229,14 @@
             <br/>
             <div id="point5"></div>
             <div class="mycard" id="section5">
-                <h4>운명 편집($自定义羁绊)</h4>
+                <h4>운명 편집</h4>
                 <div class="form-inline">
                     <label for="card-name" class="control-label">운명 이름($羁绊名)</label>
                     <input type="text" class="form-control" id="card-name" name="card-name">
 				</div>
                 <br>운명이름은 예와 같이 인물이름:카드이름 과 같이 입력해주시고 빈칸없이 적어주세요.( 예) 허묵:반딧불 )</br><P>
                 <div class="form-inline">
-                    <label for="card-rarity" class="control-label">희귀도($稀有度)</label>
+                    <label for="card-rarity" class="control-label">희귀도</label>
                     <select id="card-rarity" name="card-rarity">
                         <option value ="SSR">SSR</option>
                         <option value ="SR">SR</option>
@@ -247,7 +247,7 @@
                 </div>
                 <br/>
                 <div class="form-inline">
-                    <label for="card-character" class="control-label">인물($人物)</label>
+                    <label for="card-character" class="control-label">인물</label>
                     <select id="card-character" name="card-character">
                         <option value ="백기">백기</option>
                         <option value ="이택언">이택언</option>
@@ -282,13 +282,13 @@
             <br/>
             <div id="point6"></div>
             <div class="mycard" id="section6">
-                <h4>한꺼번에 내보내기/가져오기($批量导出/导入)</h4>
+                <h4>한꺼번에 내보내기/가져오기</h4>
                 <div class="form-group">
                     <textarea id="import-text" class="form-control" rows="8" style="width:90%; margin:0 auto;"></textarea><br/>
-                    <button id="export-button" class='btn btn-default' onclick="exportCard()">내보내기($导出)</button>&nbsp;&nbsp;
-                    <button id="import-button" class='btn btn-primary' onclick="importCard();">가져오기($导入)</button>
+                    <button id="export-button" class='btn btn-default' onclick="exportCard()">내보내기</button>&nbsp;&nbsp;
+                    <button id="import-button" class='btn btn-primary' onclick="importCard();">가져오기</button>
                 </div>
-                <a href="#">처음으로($返回顶部)</a><br/><br/>
+                <a href="#">처음으로</a><br/><br/>
             </div>
             <br/><br/>
         </div>
